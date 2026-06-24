@@ -15,7 +15,7 @@ from typing import Optional
 # ---------------------------------------------------------------------------
 PROJECT_ROOT = Path("/home/biand/Projects/Celiac_BioVU")
 DATA_DIR = PROJECT_ROOT / "data"
-RESULTS_DIR = PROJECT_ROOT / "results"
+RESULTS_DIR = Path("results")
 
 # Input data
 EHR_MARKDOWN_DIR = DATA_DIR / "ehr_markdown_dataset"
@@ -35,8 +35,8 @@ EMBED_MODEL_HF = "emilyalsentzer/Bio_ClinicalBERT"
 EMBED_MODEL = str(EMBED_MODEL_LOCAL) if EMBED_MODEL_LOCAL.exists() else EMBED_MODEL_HF
 
 # Output
-AGENT_RESULTS_DIR = RESULTS_DIR / "celiac_agent_v2"
-AGENT_RESULTS_CSV = RESULTS_DIR / "celiac_agent_results_v2.csv"
+AGENT_RESULTS_DIR = RESULTS_DIR / "celiac"
+AGENT_RESULTS_CSV = RESULTS_DIR / "celiac_results.csv"
 
 
 # ---------------------------------------------------------------------------
