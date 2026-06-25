@@ -196,6 +196,83 @@ class OllamaHandler:
         logger.error("Ollama call failed after %d retries: %s", self.max_retries, last_error)
         return ""
 
+    def get_structured(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        response_schema: Any,
+        model: Optional[str] = None,
+        temperature: Optional[float] = None,
+    ) -> Any:
+        """
+        Send a structured completion request to Ollama using Outlines.
+
+        Parameters
+        ----------
+        system_prompt : str
+            The system-level instruction.
+        user_prompt : str
+            The user message.
+        response_schema : Any
+            A Pydantic BaseModel subclass.
+        model : str, optional
+            Override the default model.
+        temperature : float, optional
+            Override the default temperature.
+
+        Returns
+        -------
+        Any
+            An instance of the response_schema Pydantic model.
+        """
+        import outlines
+        from outlines.inputs import Chat
+
+        model_name = model or self.default_model
+        temp = temperature if temperature is not None else self.temperature
+
+        outlines_model = outlines.from_ollama(self.client, model_name)
+        generator = outlines.Generator(outlines_model, response_schema)
+
+        chat_prompt = Chat([
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ])
+
+        options = {
+            "temperature": temp,
+            "seed": self.seed,
+        }
+
+        last_error = None
+        for attempt in range(1, self.max_retries + 1):
+            try:
+                t0 = time.time()
+                raw_json = generator(chat_prompt, options=options)
+                elapsed = time.time() - t0
+
+                parsed = response_schema.model_validate_json(raw_json)
+
+                self.total_calls += 1
+                self.total_time += elapsed
+                logger.debug(
+                    "Outlines structured call #%d  model=%s  time=%.1fs  schema=%s",
+                    self.total_calls, model_name, elapsed, response_schema.__name__,
+                )
+                return parsed
+
+            except Exception as exc:
+                last_error = exc
+                wait = 2 ** attempt
+                logger.warning(
+                    "Outlines call failed (attempt %d/%d): %s — retrying in %ds",
+                    attempt, self.max_retries, exc, wait,
+                )
+                time.sleep(wait)
+
+        logger.error("Outlines call failed after %d retries: %s", self.max_retries, last_error)
+        raise last_error
+
     # ---- convenience wrappers ----------------------------------------------
 
     def get_json(

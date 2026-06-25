@@ -1,0 +1,771 @@
+{
+  "grid": "R201643869",
+  "diagnosis": "Positive",
+  "confidence": 0.85,
+  "reasoning": "The positive celiac disease diagnosis was triggered by the \"past celiac diagnosis (celiac cannot be cured)\" decision rule, which specifies that a single confirmed historical diagnosis is sufficient due to the chronic, incurable nature of the disease. Multiple clinical notes (e.g., 2007-03-15, 2007-03-27, and 2013-01-17) explicitly document \"Celiac sprue\" and \"celiac disease\" in the patient's problem list, directly satisfying this criterion. Although recent duodenal biopsies from 2011 and 2012 demonstrated normal villous architecture and negative intraepithelial lymphocytes, these findings reflect expected histological remission and do not override the established chronic diagnosis per protocol. The TTG-IgA laboratory value of 9.0 was excluded from the decision logic, confirming that the documented clinical history alone drives the final positive classification.",
+  "evidence": [
+    "NORMAL VILLOUS ARCHITECTURE",
+    "NO SIGNIFICANT HISTOPATHOLOGIC CHANGE",
+    "NORMAL VILLOUS ARCHITECTURE",
+    "NO INCREASE IN INTRAEPITHELIAL LYMPHOCYTES",
+    "NORMAL VILLOUS ARCHITECTURE",
+    "NO INCREASE IN INTRAEPITHELIAL LYMPHOCYTES",
+    "Celiac sprue",
+    "Celiac sprue",
+    "-celiac",
+    "celiac disease"
+  ],
+  "decision_path": "Per-note: Note_1(2011-05-12 05:00:00): Negative [IEL negative + Villous normal]; Note_2(2012-07-03 05:00:00): Negative [IEL negative + Villous normal]; Note_3(2012-07-03 05:01:00): Negative [IEL negative + Villous normal]; Note_4(2007-03-15 17:00:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_5(2007-03-27 14:26:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_6(2007-05-01 19:48:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_7(2007-05-01 19:59:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_8(2007-05-01 19:59:00): Negative [No pathological signal found]; Note_9(2007-07-28 16:09:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_10(2011-04-20 05:01:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_11(2011-04-20 12:58:00): Negative [No pathological signal found]; Note_12(2011-04-20 12:58:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_13(2011-05-10 17:49:55): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_14(2011-05-10 17:50:00): Negative [No pathological signal found]; Note_15(2011-05-12 05:01:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_16(2012-06-29 16:41:00): Negative [No pathological signal found]; Note_17(2012-06-29 16:41:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_18(2012-07-05 11:56:00): Negative [No pathological signal found]; Note_19(2012-07-05 20:59:00): Negative [No pathological signal found]; Note_20(2013-01-17 16:56:00): Negative [No pathological signal found]; Note_21(2013-01-17 16:56:00): Positive [Past celiac diagnosis (celiac cannot be cured)]. LLM aggregated: Positive. Keyword: Indeterminate. Final: Positive.",
+  "lab_decision": "excluded",
+  "time_taken_s": 451.4,
+  "trace": {
+    "grid": "R201643869",
+    "steps": [
+      {
+        "agent": "DataGatherer",
+        "summary": "PatientDossier for R201643869\n  Labs: 2 entries\n  Notes: 30 notes\n  TTG decision: excluded\n  Keyword decision: Indeterminate\n  Relevant notes for LLM: 21"
+      },
+      {
+        "agent": "SignalExtractor",
+        "num_notes": 21,
+        "num_signals": 21,
+        "signals": [
+          {
+            "note_label": "Note_1",
+            "note_date": "2011-05-12 05:00:00",
+            "note_type": "PATH",
+            "iel_status": "not_found",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "SMALL BOWEL MUCOSA WITH NORMAL VILLOUS ARCHITECTURE",
+              "hx of celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_2",
+            "note_date": "2012-07-03 05:00:00",
+            "note_type": "PATH",
+            "iel_status": "negative",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "NORMAL VILLOUS ARCHITECTURE WITH NO SIGNIFICANT HISTOPATHOLOGIC CHANGE; NO INCREASE IN INTRAEPITHELIAL LYMPHOCYTES TO SUGGEST CELIAC DISEASE.",
+              "History of celiac disease."
+            ]
+          },
+          {
+            "note_label": "Note_3",
+            "note_date": "2012-07-03 05:01:00",
+            "note_type": "OPERATIVE REPORT",
+            "iel_status": "negative",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "NORMAL VILLOUS ARCHITECTURE WITH NO SIGNIFICANT HISTOPATHOLOGIC CHANGE; NO INCREASE IN INTRAEPITHELIAL LYMPHOCYTES TO SUGGEST CELIAC DISEASE.",
+              "apparently has been diagnosed with celiac disease in the past"
+            ]
+          },
+          {
+            "note_label": "Note_4",
+            "note_date": "2007-03-15 17:00:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "Celiac sprue"
+            ]
+          },
+          {
+            "note_label": "Note_5",
+            "note_date": "2007-03-27 14:26:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "Celiac sprue"
+            ]
+          },
+          {
+            "note_label": "Note_6",
+            "note_date": "2007-05-01 19:48:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "-celiac",
+              "celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_7",
+            "note_date": "2007-05-01 19:59:00",
+            "note_type": "KNOWN SIGNIFICANT MEDICAL DIAGNOSES AND CONDITIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease - on gluten free diet"
+            ]
+          },
+          {
+            "note_label": "Note_8",
+            "note_date": "2007-05-01 19:59:00",
+            "note_type": "KNOWN ADVERSE AND ALLERGIC DRUG REACTIONS (IF NONE, ENTER NKA)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_9",
+            "note_date": "2007-07-28 16:09:00",
+            "note_type": "KNOWN SIGNIFICANT MEDICAL DIAGNOSES AND CONDITIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease - on gluten free diet"
+            ]
+          },
+          {
+            "note_label": "Note_10",
+            "note_date": "2011-04-20 05:01:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "known celiac disease for the past 5 years",
+              "Celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_11",
+            "note_date": "2011-04-20 12:58:00",
+            "note_type": "KNOWN ADVERSE AND ALLERGIC DRUG REACTIONS (IF NONE, ENTER NKA)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Gluten"
+            ]
+          },
+          {
+            "note_label": "Note_12",
+            "note_date": "2011-04-20 12:58:00",
+            "note_type": "KNOWN SIGNIFICANT MEDICAL DIAGNOSES AND CONDITIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease - on gluten free diet"
+            ]
+          },
+          {
+            "note_label": "Note_13",
+            "note_date": "2011-05-10 17:49:55",
+            "note_type": "PROBLEM",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease - on gluten free diet"
+            ]
+          },
+          {
+            "note_label": "Note_14",
+            "note_date": "2011-05-10 17:50:00",
+            "note_type": "KNOWN ADVERSE AND ALLERGIC DRUG REACTIONS (IF NONE, ENTER NKA)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Gluten"
+            ]
+          },
+          {
+            "note_label": "Note_15",
+            "note_date": "2011-05-12 05:01:00",
+            "note_type": "OPERATIVE REPORT",
+            "iel_status": "not_found",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "She also carries a diagnosis of celiac disease.",
+              "SMALL BOWEL MUCOSA WITH NORMAL VILLOUS ARCHITECTURE AND NO SIGNIFICANT HISTOPATHOLOGIC CHANGE."
+            ]
+          },
+          {
+            "note_label": "Note_16",
+            "note_date": "2012-06-29 16:41:00",
+            "note_type": "KNOWN ADVERSE AND ALLERGIC DRUG REACTIONS (IF NONE, ENTER NKA)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_17",
+            "note_date": "2012-06-29 16:41:00",
+            "note_type": "KNOWN SIGNIFICANT MEDICAL DIAGNOSES AND CONDITIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease - on gluten free diet"
+            ]
+          },
+          {
+            "note_label": "Note_18",
+            "note_date": "2012-07-05 11:56:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Those small intestinal biopsies looked normal"
+            ]
+          },
+          {
+            "note_label": "Note_19",
+            "note_date": "2012-07-05 20:59:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Those small intestinal biopsies looked normal"
+            ]
+          },
+          {
+            "note_label": "Note_20",
+            "note_date": "2013-01-17 16:56:00",
+            "note_type": "KNOWN ADVERSE AND ALLERGIC DRUG REACTIONS (IF NONE, ENTER NKA)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_21",
+            "note_date": "2013-01-17 16:56:00",
+            "note_type": "KNOWN SIGNIFICANT MEDICAL DIAGNOSES AND CONDITIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease"
+            ]
+          }
+        ]
+      },
+      {
+        "agent": "Critic",
+        "round": 1,
+        "num_issues": 4,
+        "needs_re_extraction": true,
+        "issues": [
+          {
+            "note": "Note_2",
+            "type": "phantom_quote",
+            "desc": "Quote not found in note text: \"History of celiac disease.\""
+          },
+          {
+            "note": "Note_1",
+            "type": "false_diagnosis",
+            "desc": "past_celiac_diagnosis: True → false. Although clinical data mentions 'hx of celiac disease', the operative diagnosis is 'r/o celiac disease' and the final pathology explicitly shows normal architecture with no significant change. Per reversal/rule-out rules, this does not constitute a confirmed past diagnosis."
+          },
+          {
+            "note": "Note_2",
+            "type": "false_diagnosis",
+            "desc": "past_celiac_diagnosis: True → false. Clinical features describe 'questionable celiac disease' and the pathology report explicitly states no increase in IELs to suggest celiac. This is a rule-out/negative evaluation, not a confirmed past diagnosis."
+          },
+          {
+            "note": "Note_3",
+            "type": "false_diagnosis",
+            "desc": "past_celiac_diagnosis: True → false. The history is characterized as 'suspected' and 'apparently diagnosed', lacking explicit physician confirmation. Biopsies were performed to rule it out, so it does not meet the confirmation threshold."
+          }
+        ]
+      },
+      {
+        "agent": "SignalExtractor",
+        "mode": "re-extraction",
+        "round": 1,
+        "signals": [
+          {
+            "note_label": "Note_1",
+            "note_date": "2011-05-12 05:00:00",
+            "note_type": "PATH",
+            "iel_status": "negative",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "NORMAL VILLOUS ARCHITECTURE",
+              "NO SIGNIFICANT HISTOPATHOLOGIC CHANGE"
+            ]
+          },
+          {
+            "note_label": "Note_2",
+            "note_date": "2012-07-03 05:00:00",
+            "note_type": "PATH",
+            "iel_status": "negative",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "NORMAL VILLOUS ARCHITECTURE",
+              "NO INCREASE IN INTRAEPITHELIAL LYMPHOCYTES"
+            ]
+          },
+          {
+            "note_label": "Note_3",
+            "note_date": "2012-07-03 05:01:00",
+            "note_type": "OPERATIVE REPORT",
+            "iel_status": "negative",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "NORMAL VILLOUS ARCHITECTURE",
+              "NO INCREASE IN INTRAEPITHELIAL LYMPHOCYTES"
+            ]
+          },
+          {
+            "note_label": "Note_4",
+            "note_date": "2007-03-15 17:00:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "Celiac sprue"
+            ]
+          },
+          {
+            "note_label": "Note_5",
+            "note_date": "2007-03-27 14:26:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "Celiac sprue"
+            ]
+          },
+          {
+            "note_label": "Note_6",
+            "note_date": "2007-05-01 19:48:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "-celiac",
+              "celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_7",
+            "note_date": "2007-05-01 19:59:00",
+            "note_type": "KNOWN SIGNIFICANT MEDICAL DIAGNOSES AND CONDITIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease - on gluten free diet"
+            ]
+          },
+          {
+            "note_label": "Note_8",
+            "note_date": "2007-05-01 19:59:00",
+            "note_type": "KNOWN ADVERSE AND ALLERGIC DRUG REACTIONS (IF NONE, ENTER NKA)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_9",
+            "note_date": "2007-07-28 16:09:00",
+            "note_type": "KNOWN SIGNIFICANT MEDICAL DIAGNOSES AND CONDITIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease - on gluten free diet"
+            ]
+          },
+          {
+            "note_label": "Note_10",
+            "note_date": "2011-04-20 05:01:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "known celiac disease for the past 5 years",
+              "Celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_11",
+            "note_date": "2011-04-20 12:58:00",
+            "note_type": "KNOWN ADVERSE AND ALLERGIC DRUG REACTIONS (IF NONE, ENTER NKA)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Gluten"
+            ]
+          },
+          {
+            "note_label": "Note_12",
+            "note_date": "2011-04-20 12:58:00",
+            "note_type": "KNOWN SIGNIFICANT MEDICAL DIAGNOSES AND CONDITIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease - on gluten free diet"
+            ]
+          },
+          {
+            "note_label": "Note_13",
+            "note_date": "2011-05-10 17:49:55",
+            "note_type": "PROBLEM",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease - on gluten free diet"
+            ]
+          },
+          {
+            "note_label": "Note_14",
+            "note_date": "2011-05-10 17:50:00",
+            "note_type": "KNOWN ADVERSE AND ALLERGIC DRUG REACTIONS (IF NONE, ENTER NKA)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Gluten"
+            ]
+          },
+          {
+            "note_label": "Note_15",
+            "note_date": "2011-05-12 05:01:00",
+            "note_type": "OPERATIVE REPORT",
+            "iel_status": "not_found",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "She also carries a diagnosis of celiac disease.",
+              "SMALL BOWEL MUCOSA WITH NORMAL VILLOUS ARCHITECTURE AND NO SIGNIFICANT HISTOPATHOLOGIC CHANGE."
+            ]
+          },
+          {
+            "note_label": "Note_16",
+            "note_date": "2012-06-29 16:41:00",
+            "note_type": "KNOWN ADVERSE AND ALLERGIC DRUG REACTIONS (IF NONE, ENTER NKA)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_17",
+            "note_date": "2012-06-29 16:41:00",
+            "note_type": "KNOWN SIGNIFICANT MEDICAL DIAGNOSES AND CONDITIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease - on gluten free diet"
+            ]
+          },
+          {
+            "note_label": "Note_18",
+            "note_date": "2012-07-05 11:56:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Those small intestinal biopsies looked normal"
+            ]
+          },
+          {
+            "note_label": "Note_19",
+            "note_date": "2012-07-05 20:59:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Those small intestinal biopsies looked normal"
+            ]
+          },
+          {
+            "note_label": "Note_20",
+            "note_date": "2013-01-17 16:56:00",
+            "note_type": "KNOWN ADVERSE AND ALLERGIC DRUG REACTIONS (IF NONE, ENTER NKA)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_21",
+            "note_date": "2013-01-17 16:56:00",
+            "note_type": "KNOWN SIGNIFICANT MEDICAL DIAGNOSES AND CONDITIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease"
+            ]
+          }
+        ]
+      },
+      {
+        "agent": "Critic",
+        "round": 2,
+        "num_issues": 0,
+        "needs_re_extraction": false,
+        "issues": []
+      },
+      {
+        "agent": "Adjudicator",
+        "diagnosis": "Positive",
+        "confidence": 0.85,
+        "decision_path": "Per-note: Note_1(2011-05-12 05:00:00): Negative [IEL negative + Villous normal]; Note_2(2012-07-03 05:00:00): Negative [IEL negative + Villous normal]; Note_3(2012-07-03 05:01:00): Negative [IEL negative + Villous normal]; Note_4(2007-03-15 17:00:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_5(2007-03-27 14:26:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_6(2007-05-01 19:48:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_7(2007-05-01 19:59:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_8(2007-05-01 19:59:00): Negative [No pathological signal found]; Note_9(2007-07-28 16:09:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_10(2011-04-20 05:01:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_11(2011-04-20 12:58:00): Negative [No pathological signal found]; Note_12(2011-04-20 12:58:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_13(2011-05-10 17:49:55): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_14(2011-05-10 17:50:00): Negative [No pathological signal found]; Note_15(2011-05-12 05:01:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_16(2012-06-29 16:41:00): Negative [No pathological signal found]; Note_17(2012-06-29 16:41:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_18(2012-07-05 11:56:00): Negative [No pathological signal found]; Note_19(2012-07-05 20:59:00): Negative [No pathological signal found]; Note_20(2013-01-17 16:56:00): Negative [No pathological signal found]; Note_21(2013-01-17 16:56:00): Positive [Past celiac diagnosis (celiac cannot be cured)]. LLM aggregated: Positive. Keyword: Indeterminate. Final: Positive.",
+        "note_decisions": [
+          {
+            "note": "Note_1",
+            "date": "2011-05-12 05:00:00",
+            "decision": "Negative",
+            "rule": "IEL negative + Villous normal"
+          },
+          {
+            "note": "Note_2",
+            "date": "2012-07-03 05:00:00",
+            "decision": "Negative",
+            "rule": "IEL negative + Villous normal"
+          },
+          {
+            "note": "Note_3",
+            "date": "2012-07-03 05:01:00",
+            "decision": "Negative",
+            "rule": "IEL negative + Villous normal"
+          },
+          {
+            "note": "Note_4",
+            "date": "2007-03-15 17:00:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_5",
+            "date": "2007-03-27 14:26:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_6",
+            "date": "2007-05-01 19:48:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_7",
+            "date": "2007-05-01 19:59:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_8",
+            "date": "2007-05-01 19:59:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_9",
+            "date": "2007-07-28 16:09:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_10",
+            "date": "2011-04-20 05:01:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_11",
+            "date": "2011-04-20 12:58:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_12",
+            "date": "2011-04-20 12:58:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_13",
+            "date": "2011-05-10 17:49:55",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_14",
+            "date": "2011-05-10 17:50:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_15",
+            "date": "2011-05-12 05:01:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_16",
+            "date": "2012-06-29 16:41:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_17",
+            "date": "2012-06-29 16:41:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_18",
+            "date": "2012-07-05 11:56:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_19",
+            "date": "2012-07-05 20:59:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_20",
+            "date": "2013-01-17 16:56:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_21",
+            "date": "2013-01-17 16:56:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_stats": {
+    "reasoning": {
+      "total_calls": 3,
+      "total_time_s": 230.1,
+      "avg_time_s": 76.7
+    },
+    "extraction": {
+      "total_calls": 10,
+      "total_time_s": 220.4,
+      "avg_time_s": 22.0
+    }
+  }
+}

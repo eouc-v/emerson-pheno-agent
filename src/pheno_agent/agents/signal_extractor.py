@@ -13,10 +13,23 @@ Extractor re-processes only the flagged notes with the feedback included.
 import logging
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Literal, Optional
+from pydantic import BaseModel, Field
 
 from pheno_agent.config import cfg
 from pheno_agent.llm import OllamaHandler, parse_json_response
+
+class NoteSignalSchema(BaseModel):
+    note_label: str
+    iel_status: Literal["positive", "negative", "not_found"]
+    villous_architecture: Literal["abnormal", "normal", "not_found"]
+    marsh_grade: Literal["positive", "indeterminate", "not_found"]
+    external_confirmation: bool
+    past_celiac_diagnosis: bool
+    supporting_quotes: List[str]
+
+class NoteSignalsResponseSchema(BaseModel):
+    notes: List[NoteSignalSchema]
 
 logger = logging.getLogger(__name__)
 
@@ -257,39 +270,22 @@ class SignalExtractor:
                 batch_start + 1, batch_start + len(batch), len(note_dicts),
             )
 
-            raw = self.llm.get_completion(
-                system_prompt, prompt, model=self.model,
+            parsed_response = self.llm.get_structured(
+                system_prompt, prompt, NoteSignalsResponseSchema, model=self.model,
             )
 
-            signals = self._parse_signals(raw, batch)
+            signals = self._process_extracted_signals(parsed_response, batch)
             all_signals.extend(signals)
 
         return all_signals
 
-    def _parse_signals(
-        self, raw: str, note_dicts: list,
+    def _process_extracted_signals(
+        self, parsed_response: NoteSignalsResponseSchema, note_dicts: list
     ) -> List[NoteSignals]:
-        """Parse LLM response into NoteSignals objects."""
-        parsed = parse_json_response(raw)
-
-        if parsed is None:
-            logger.warning("Failed to parse extraction response. Returning empty signals.")
-            return [
-                NoteSignals(
-                    note_label=n["label"],
-                    note_date=n["date"],
-                    note_type=n["source"],
-                )
-                for n in note_dicts
-            ]
-
-        notes_data = parsed.get("notes", [])
-        if not isinstance(notes_data, list):
-            notes_data = [parsed] if "iel_status" in parsed else []
-
+        """Convert Pydantic schemas back to NoteSignals dataclass objects."""
         signals = []
-        for i, nd in enumerate(notes_data):
-            label = nd.get("note_label", f"Note_{i + 1}")
+        for nd in parsed_response.notes:
+            label = nd.note_label
             # Match back to note_dicts for date/type
             matching_dict = next(
                 (d for d in note_dicts if d["label"] == label), {}
@@ -297,14 +293,14 @@ class SignalExtractor:
 
             sig = NoteSignals(
                 note_label=label,
-                note_date=matching_dict.get("date", nd.get("note_date", "")),
-                note_type=matching_dict.get("source", nd.get("note_type", "")),
-                iel_status=str(nd.get("iel_status", "not_found")).lower(),
-                villous_architecture=str(nd.get("villous_architecture", "not_found")).lower(),
-                marsh_grade=str(nd.get("marsh_grade", "not_found")).lower(),
-                external_confirmation=bool(nd.get("external_confirmation", False)),
-                past_celiac_diagnosis=bool(nd.get("past_celiac_diagnosis", False)),
-                supporting_quotes=nd.get("supporting_quotes", []) or [],
+                note_date=matching_dict.get("date", ""),
+                note_type=matching_dict.get("source", ""),
+                iel_status=nd.iel_status,
+                villous_architecture=nd.villous_architecture,
+                marsh_grade=nd.marsh_grade,
+                external_confirmation=nd.external_confirmation,
+                past_celiac_diagnosis=nd.past_celiac_diagnosis,
+                supporting_quotes=nd.supporting_quotes or [],
             )
             signals.append(sig)
 

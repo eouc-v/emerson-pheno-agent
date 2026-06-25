@@ -18,12 +18,22 @@ import logging
 from dataclasses import dataclass, field
 from difflib import SequenceMatcher
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Literal, Optional
+from pydantic import BaseModel, Field
 
 from pheno_agent.agents.signal_extractor import CriticFeedback, NoteSignals
 from pheno_agent.config import cfg
 from pheno_agent.llm import OllamaHandler, parse_json_response
 from pheno_agent.tools.keyword_scanner import KeywordSignals
+
+class VerificationSchema(BaseModel):
+    note_label: str
+    field: Literal["iel_status", "villous_architecture", "external_confirmation", "past_celiac_diagnosis"]
+    correct_value: str
+    reasoning: str
+
+class VerificationResponseSchema(BaseModel):
+    verifications: List[VerificationSchema]
 
 logger = logging.getLogger(__name__)
 
@@ -342,11 +352,10 @@ class Critic:
                     "Verify celiac disease signal extractions. "
                     "Respond only in valid JSON."
                 )
-                raw = self.llm.get_completion(
-                    system_prompt, prompt, model=self.model,
+                parsed_response = self.llm.get_structured(
+                    system_prompt, prompt, VerificationResponseSchema, model=self.model,
                 )
-                corrections = self._parse_corrections(raw)
-                self._apply_corrections(signals, corrections, all_issues)
+                self._apply_corrections(signals, parsed_response.verifications, all_issues)
 
         # Determine if re-extraction is needed
         # Re-extract if there are significant issues (not just phantom quotes)
@@ -364,27 +373,20 @@ class Critic:
         )
         return result
 
-    def _parse_corrections(self, raw: str) -> List[dict]:
-        """Parse LLM verification response."""
-        parsed = parse_json_response(raw)
-        if parsed is None:
-            return []
-        return parsed.get("verifications", [])
-
     def _apply_corrections(
         self,
         signals: List[NoteSignals],
-        corrections: List[dict],
+        corrections: List[VerificationSchema],
         issues: List[CriticFeedback],
     ):
         """Apply LLM corrections to signals and log issues."""
         sig_by_label = {s.note_label: s for s in signals}
 
         for corr in corrections:
-            label = corr.get("note_label", "")
-            field_name = corr.get("field", "")
-            correct_value = corr.get("correct_value", "")
-            reasoning = corr.get("reasoning", "")
+            label = corr.note_label
+            field_name = corr.field
+            correct_value = corr.correct_value
+            reasoning = corr.reasoning
 
             sig = sig_by_label.get(label)
             if not sig:
