@@ -17,7 +17,7 @@
   ],
   "decision_path": "Per-note: Note_1(2011-05-12 05:00:00): Negative [IEL negative + Villous normal]; Note_2(2012-07-03 05:00:00): Negative [IEL negative + Villous normal]; Note_3(2012-07-03 05:01:00): Negative [IEL negative + Villous normal]; Note_4(2007-03-15 17:00:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_5(2007-03-27 14:26:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_6(2007-05-01 19:48:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_7(2007-05-01 19:59:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_8(2007-05-01 19:59:00): Negative [No pathological signal found]; Note_9(2007-07-28 16:09:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_10(2011-04-20 05:01:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_11(2011-04-20 12:58:00): Negative [No pathological signal found]; Note_12(2011-04-20 12:58:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_13(2011-05-10 17:49:55): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_14(2011-05-10 17:50:00): Negative [No pathological signal found]; Note_15(2011-05-12 05:01:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_16(2012-06-29 16:41:00): Negative [No pathological signal found]; Note_17(2012-06-29 16:41:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_18(2012-07-05 11:56:00): Negative [No pathological signal found]; Note_19(2012-07-05 20:59:00): Negative [No pathological signal found]; Note_20(2013-01-17 16:56:00): Negative [No pathological signal found]; Note_21(2013-01-17 16:56:00): Positive [Past celiac diagnosis (celiac cannot be cured)]. LLM aggregated: Positive. Keyword: Indeterminate. Final: Positive.",
   "lab_decision": "excluded",
-  "time_taken_s": 451.4,
+  "time_taken_s": 450.5,
   "trace": {
     "grid": "R201643869",
     "steps": [
@@ -758,14 +758,14 @@
   },
   "llm_stats": {
     "reasoning": {
-      "total_calls": 3,
-      "total_time_s": 230.1,
-      "avg_time_s": 76.7
+      "total_calls": 14,
+      "total_time_s": 1085.2,
+      "avg_time_s": 77.5
     },
     "extraction": {
-      "total_calls": 10,
-      "total_time_s": 220.4,
-      "avg_time_s": 22.0
+      "total_calls": 86,
+      "total_time_s": 1814.9,
+      "avg_time_s": 21.1
     }
   }
 }

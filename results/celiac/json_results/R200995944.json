@@ -17,7 +17,7 @@
   ],
   "decision_path": "Per-note: Note_1(2003-02-27 06:00:00): Positive [IEL positive + Villous abnormal]; Note_2(2003-03-09 15:14:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_3(2003-02-18 14:16:00): Negative [No pathological signal found]; Note_4(2003-02-18 14:16:00): Negative [No pathological signal found]; Note_5(2003-02-18 14:16:00): Negative [No pathological signal found]; Note_6(2003-02-28 06:01:00): Negative [No pathological signal found]; Note_7(2003-03-04 06:01:00): Negative [No pathological signal found]; Note_8(2003-03-05 06:00:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_9(2003-03-18 20:26:00): Negative [No pathological signal found]; Note_10(2003-03-25 23:30:00): Negative [No pathological signal found]; Note_11(2003-03-26 06:01:00): Negative [No pathological signal found]; Note_12(2003-03-26 06:01:00): Negative [No pathological signal found]; Note_13(2003-03-26 20:07:00): Negative [No pathological signal found]; Note_14(2003-03-26 20:07:00): Negative [No pathological signal found]; Note_15(2003-03-26 20:07:00): Negative [No pathological signal found]; Note_16(2003-03-27 02:30:00): Negative [No pathological signal found]; Note_17(2003-04-08 15:16:00): Negative [No pathological signal found]; Note_18(2003-04-10 19:57:00): Negative [No pathological signal found]; Note_19(2003-04-22 14:31:00): Negative [No pathological signal found]; Note_20(2003-04-23 15:14:00): Negative [No pathological signal found]; Note_21(2003-05-02 21:41:00): Negative [No pathological signal found]; Note_22(2003-05-03 00:44:00): Negative [No pathological signal found]; Note_23(2003-05-03 05:01:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_24(2003-05-05 05:01:00): Negative [No pathological signal found]; Note_25(2003-05-05 05:01:00): Negative [No pathological signal found]; Note_26(2003-05-05 17:50:00): Negative [No pathological signal found]; Note_27(2003-05-07 18:19:00): Negative [No pathological signal found]; Note_28(2003-05-08 17:38:00): Negative [No pathological signal found]; Note_29(2003-05-13 02:04:00): Negative [No pathological signal found]; Note_30(2003-05-13 05:23:00): Negative [No pathological signal found]; Note_31(2003-05-13 18:56:00): Negative [No pathological signal found]; Note_32(2003-05-16 13:36:00): Negative [No pathological signal found]; Note_33(2003-06-18 15:50:00): Negative [No pathological signal found]; Note_34(2005-04-30 22:34:00): Negative [No pathological signal found]; Note_35(2008-06-24 15:58:00): Negative [No pathological signal found]; Note_36(2013-01-25 17:15:00): Negative [No pathological signal found]; Note_37(2013-01-25 17:15:00): Negative [No pathological signal found]; Note_38(2013-01-25 22:46:00): Negative [No pathological signal found]. LLM aggregated: Positive. Keyword: Indeterminate. Final: Positive.",
   "lab_decision": "excluded",
-  "time_taken_s": 273.6,
+  "time_taken_s": 273.0,
   "trace": {
     "grid": "R200995944",
     "steps": [
@@ -769,13 +769,13 @@
   "llm_stats": {
     "reasoning": {
       "total_calls": 7,
-      "total_time_s": 428.6,
-      "avg_time_s": 61.2
+      "total_time_s": 427.2,
+      "avg_time_s": 61.0
     },
     "extraction": {
       "total_calls": 38,
-      "total_time_s": 779.4,
-      "avg_time_s": 20.5
+      "total_time_s": 772.0,
+      "avg_time_s": 20.3
     }
   }
 }

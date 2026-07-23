@@ -16,7 +16,7 @@
   ],
   "decision_path": "Per-note: Note_1(2015-09-06 05:00:00): Positive [External biopsy confirmed]; Note_2(2014-12-01 19:30:00): Negative [No pathological signal found]; Note_3(2015-08-10 13:43:00): Negative [No pathological signal found]; Note_4(2015-08-10 21:13:00): Negative [No pathological signal found]; Note_5(2015-08-26 21:31:00): Negative [No pathological signal found]; Note_6(2015-09-20 18:46:00): Negative [No pathological signal found]; Note_7(2015-09-30 17:19:00): Negative [No pathological signal found]; Note_8(2015-09-30 19:34:00): Negative [No pathological signal found]. LLM aggregated: Positive. Keyword: Indeterminate. Final: Positive.",
   "lab_decision": "excluded",
-  "time_taken_s": 96.1,
+  "time_taken_s": 96.0,
   "trace": {
     "grid": "R201910520",
     "steps": [
@@ -205,13 +205,13 @@
   },
   "llm_stats": {
     "reasoning": {
-      "total_calls": 13,
-      "total_time_s": 903.2,
-      "avg_time_s": 69.5
+      "total_calls": 16,
+      "total_time_s": 1130.9,
+      "avg_time_s": 70.7
     },
     "extraction": {
-      "total_calls": 78,
-      "total_time_s": 1651.2,
+      "total_calls": 88,
+      "total_time_s": 1865.0,
       "avg_time_s": 21.2
     }
   }

@@ -26,13 +26,13 @@
   "llm_stats": {
     "reasoning": {
       "total_calls": 5,
-      "total_time_s": 336.5,
-      "avg_time_s": 67.3
+      "total_time_s": 334.9,
+      "avg_time_s": 67.0
     },
     "extraction": {
       "total_calls": 30,
-      "total_time_s": 598.3,
-      "avg_time_s": 19.9
+      "total_time_s": 591.7,
+      "avg_time_s": 19.7
     }
   }
 }

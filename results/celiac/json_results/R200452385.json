@@ -17,7 +17,7 @@
   ],
   "decision_path": "Per-note: Note_1(2007-11-20 22:10:00): Negative [No pathological signal found]; Note_2(2007-12-02 21:28:00): Negative [No pathological signal found]; Note_3(2007-12-07 16:49:00): Negative [No pathological signal found]; Note_4(2007-12-08 22:33:00): Negative [No pathological signal found]; Note_5(2008-04-15 18:57:00): Negative [No pathological signal found]; Note_6(2008-12-06 20:36:00): Negative [No pathological signal found]; Note_7(2008-12-26 17:47:00): Negative [No pathological signal found]; Note_8(2009-05-23 01:10:00): Negative [No pathological signal found]; Note_9(2010-01-17 21:11:00): Negative [No pathological signal found]; Note_10(2010-10-29 18:50:34): Negative [No pathological signal found]; Note_11(2010-10-29 18:52:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_12(2010-10-29 18:55:00): Negative [No pathological signal found]; Note_13(2010-11-09 18:40:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_14(2010-11-09 18:40:00): Negative [No pathological signal found]; Note_15(2010-11-19 22:10:00): Negative [No pathological signal found]; Note_16(2010-11-19 22:10:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_17(2010-11-19 22:25:00): Negative [No pathological signal found]; Note_18(2010-12-03 19:19:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_19(2010-12-11 21:37:00): Negative [No pathological signal found]; Note_20(2010-12-11 21:37:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_21(2010-12-12 04:01:00): Negative [No pathological signal found]; Note_22(2010-12-17 19:56:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_23(2010-12-18 04:03:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_24(2010-12-18 04:03:00): Negative [No pathological signal found]; Note_25(2011-01-15 20:58:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_26(2011-01-15 20:58:00): Negative [No pathological signal found]; Note_27(2011-01-15 20:58:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_28(2011-01-15 20:58:00): Negative [No pathological signal found]; Note_29(2011-01-15 21:18:00): Negative [No pathological signal found]; Note_30(2011-01-16 16:34:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_31(2011-03-20 21:31:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_32(2011-06-03 16:06:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_33(2011-06-03 16:06:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_34(2011-06-03 16:06:00): Negative [No pathological signal found]; Note_35(2011-06-03 16:06:00): Negative [No pathological signal found]; Note_36(2011-06-03 16:10:00): Negative [No pathological signal found]; Note_37(2021-11-26 06:00:00): Negative [No pathological signal found]; Note_38(2021-11-26 06:00:00): Negative [No pathological signal found]; Note_39(2021-11-26 06:00:00): Negative [No pathological signal found]; Note_40(2021-11-26 20:30:00): Positive [Past celiac diagnosis (celiac cannot be cured)]. LLM aggregated: Positive. Keyword: Negative. Final: Positive.",
   "lab_decision": "excluded",
-  "time_taken_s": 441.2,
+  "time_taken_s": 439.6,
   "trace": {
     "grid": "R200452385",
     "steps": [
@@ -1274,13 +1274,13 @@
   "llm_stats": {
     "reasoning": {
       "total_calls": 5,
-      "total_time_s": 336.5,
-      "avg_time_s": 67.3
+      "total_time_s": 334.9,
+      "avg_time_s": 67.0
     },
     "extraction": {
       "total_calls": 30,
-      "total_time_s": 598.3,
-      "avg_time_s": 19.9
+      "total_time_s": 591.7,
+      "avg_time_s": 19.7
     }
   }
 }

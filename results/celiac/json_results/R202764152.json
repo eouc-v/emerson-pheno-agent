@@ -9,7 +9,7 @@
   ],
   "decision_path": "Per-note: Note_1(2013-02-12 06:00:00): Negative [No pathological signal found]; Note_2(2013-02-12 22:02:00): Negative [No pathological signal found]; Note_3(2013-02-16 21:47:59): Negative [No pathological signal found]; Note_4(2016-12-19 20:02:00): Negative [No pathological signal found]; Note_5(2016-12-19 20:10:00): Negative [No pathological signal found]; Note_6(2016-12-19 21:33:00): Negative [No pathological signal found]; Note_7(2016-12-19 21:33:00): Negative [No pathological signal found]; Note_8(2016-12-23 20:54:00): Negative [No pathological signal found]; Note_9(2017-01-19 16:36:00): Negative [No pathological signal found]; Note_10(2017-06-30 13:45:00): Negative [No pathological signal found]; Note_11(2017-06-30 13:59:00): Negative [No pathological signal found]. LLM aggregated: Negative. Keyword: Negative. Final: Negative.",
   "lab_decision": "secondary_check",
-  "time_taken_s": 73.3,
+  "time_taken_s": 73.4,
   "trace": {
     "grid": "R202764152",
     "steps": [
@@ -233,13 +233,13 @@
   },
   "llm_stats": {
     "reasoning": {
-      "total_calls": 14,
-      "total_time_s": 930.6,
-      "avg_time_s": 66.5
+      "total_calls": 17,
+      "total_time_s": 1158.4,
+      "avg_time_s": 68.1
     },
     "extraction": {
-      "total_calls": 81,
-      "total_time_s": 1697.1,
+      "total_calls": 91,
+      "total_time_s": 1910.9,
       "avg_time_s": 21.0
     }
   }
