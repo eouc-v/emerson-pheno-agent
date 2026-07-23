@@ -1,0 +1,781 @@
+{
+  "grid": "R200995944",
+  "diagnosis": "Positive",
+  "confidence": 0.85,
+  "reasoning": "The patient’s Positive celiac disease diagnosis is primarily established by Note_1 (2003-02-27), which documents both increased intraepithelial lymphocytes (“SLIGHT INCREASE IN SURFACE LYMPHOCYTES”) and abnormal villous architecture (“PATCHY VILLOUS BLUNTING”), directly satisfying the decision rule requiring positive IELs with abnormal villi. This histological pattern is further corroborated by biopsy reports noting “patchy villous atrophy” and “blunting of the intestinal villi... consistent with a diagnosis of celiac sprue,” alongside repeatedly recorded positive celiac antibodies. Additionally, multiple subsequent clinical notes (e.g., Notes 2, 8, and 23) explicitly document a confirmed history of celiac disease, which independently triggers the Positive classification per the guideline that a single verified past diagnosis remains valid due to the chronic, incurable nature of the condition. No documentation of diagnosis reversal or competing etiologies was identified, confirming the final Positive outcome.",
+  "evidence": [
+    "PATCHY VILLOUS BLUNTING",
+    "SLIGHT INCREASE IN SURFACE LYMPHOCYTES",
+    "Celiac Sprue",
+    "blunting of the intestinal villi and plasma cells consistent with a diagnosis of celiac sprue",
+    "positive celiac antibodies",
+    "positive celiac antibodies",
+    "positive celiac antibodies",
+    "intestinal biopsy showed patchy villous atrophy",
+    "Intestinal biopsy 7/2 revealed patchy villous atrophy, suggestive of gluten-induced enteropathy.",
+    "history of celiac disease"
+  ],
+  "decision_path": "Per-note: Note_1(2003-02-27 06:00:00): Positive [IEL positive + Villous abnormal]; Note_2(2003-03-09 15:14:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_3(2003-02-18 14:16:00): Negative [No pathological signal found]; Note_4(2003-02-18 14:16:00): Negative [No pathological signal found]; Note_5(2003-02-18 14:16:00): Negative [No pathological signal found]; Note_6(2003-02-28 06:01:00): Negative [No pathological signal found]; Note_7(2003-03-04 06:01:00): Negative [No pathological signal found]; Note_8(2003-03-05 06:00:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_9(2003-03-18 20:26:00): Negative [No pathological signal found]; Note_10(2003-03-25 23:30:00): Negative [No pathological signal found]; Note_11(2003-03-26 06:01:00): Negative [No pathological signal found]; Note_12(2003-03-26 06:01:00): Negative [No pathological signal found]; Note_13(2003-03-26 20:07:00): Negative [No pathological signal found]; Note_14(2003-03-26 20:07:00): Negative [No pathological signal found]; Note_15(2003-03-26 20:07:00): Negative [No pathological signal found]; Note_16(2003-03-27 02:30:00): Negative [No pathological signal found]; Note_17(2003-04-08 15:16:00): Negative [No pathological signal found]; Note_18(2003-04-10 19:57:00): Negative [No pathological signal found]; Note_19(2003-04-22 14:31:00): Negative [No pathological signal found]; Note_20(2003-04-23 15:14:00): Negative [No pathological signal found]; Note_21(2003-05-02 21:41:00): Negative [No pathological signal found]; Note_22(2003-05-03 00:44:00): Negative [No pathological signal found]; Note_23(2003-05-03 05:01:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_24(2003-05-05 05:01:00): Negative [No pathological signal found]; Note_25(2003-05-05 05:01:00): Negative [No pathological signal found]; Note_26(2003-05-05 17:50:00): Negative [No pathological signal found]; Note_27(2003-05-07 18:19:00): Negative [No pathological signal found]; Note_28(2003-05-08 17:38:00): Negative [No pathological signal found]; Note_29(2003-05-13 02:04:00): Negative [No pathological signal found]; Note_30(2003-05-13 05:23:00): Negative [No pathological signal found]; Note_31(2003-05-13 18:56:00): Negative [No pathological signal found]; Note_32(2003-05-16 13:36:00): Negative [No pathological signal found]; Note_33(2003-06-18 15:50:00): Negative [No pathological signal found]; Note_34(2005-04-30 22:34:00): Negative [No pathological signal found]; Note_35(2008-06-24 15:58:00): Negative [No pathological signal found]; Note_36(2013-01-25 17:15:00): Negative [No pathological signal found]; Note_37(2013-01-25 17:15:00): Negative [No pathological signal found]; Note_38(2013-01-25 22:46:00): Negative [No pathological signal found]. LLM aggregated: Positive. Keyword: Indeterminate. Final: Positive.",
+  "lab_decision": "excluded",
+  "time_taken_s": 273.6,
+  "trace": {
+    "grid": "R200995944",
+    "steps": [
+      {
+        "agent": "DataGatherer",
+        "summary": "PatientDossier for R200995944\n  Labs: 1 entries\n  Notes: 516 notes\n  TTG decision: excluded\n  Keyword decision: Indeterminate\n  Relevant notes for LLM: 38"
+      },
+      {
+        "agent": "SignalExtractor",
+        "num_notes": 38,
+        "num_signals": 38,
+        "signals": [
+          {
+            "note_label": "Note_1",
+            "note_date": "2003-02-27 06:00:00",
+            "note_type": "PATH",
+            "iel_status": "positive",
+            "villous_architecture": "abnormal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "PATCHY VILLOUS BLUNTING",
+              "SLIGHT INCREASE IN SURFACE LYMPHOCYTES"
+            ]
+          },
+          {
+            "note_label": "Note_2",
+            "note_date": "2003-03-09 15:14:00",
+            "note_type": "DISCHARGE SUMMARY",
+            "iel_status": "not_found",
+            "villous_architecture": "abnormal",
+            "marsh_grade": "not_found",
+            "external_confirmation": true,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "Celiac Sprue",
+              "blunting of the intestinal villi and plasma cells consistent with a diagnosis of celiac sprue"
+            ]
+          },
+          {
+            "note_label": "Note_3",
+            "note_date": "2003-02-18 14:16:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "positive celiac antibodies"
+            ]
+          },
+          {
+            "note_label": "Note_4",
+            "note_date": "2003-02-18 14:16:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "positive celiac antibodies"
+            ]
+          },
+          {
+            "note_label": "Note_5",
+            "note_date": "2003-02-18 14:16:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "positive celiac antibodies"
+            ]
+          },
+          {
+            "note_label": "Note_6",
+            "note_date": "2003-02-28 06:01:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "abnormal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "intestinal biopsy showed patchy villous atrophy"
+            ]
+          },
+          {
+            "note_label": "Note_7",
+            "note_date": "2003-03-04 06:01:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "abnormal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Intestinal biopsy 7/2 revealed patchy villous atrophy, suggestive of gluten-induced enteropathy."
+            ]
+          },
+          {
+            "note_label": "Note_8",
+            "note_date": "2003-03-05 06:00:00",
+            "note_type": "PATH",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "history of celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_9",
+            "note_date": "2003-03-18 20:26:00",
+            "note_type": "PREVENTIVE CARE INTERVENTIONS (OPTIONAL)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_10",
+            "note_date": "2003-03-25 23:30:00",
+            "note_type": "PREVENTIVE CARE INTERVENTIONS (OPTIONAL)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_11",
+            "note_date": "2003-03-26 06:01:00",
+            "note_type": "LETTER",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "possible celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_12",
+            "note_date": "2003-03-26 06:01:00",
+            "note_type": "LETTER",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "possible celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_13",
+            "note_date": "2003-03-26 20:07:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "possible celiac sprue"
+            ]
+          },
+          {
+            "note_label": "Note_14",
+            "note_date": "2003-03-26 20:07:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "possible celiac sprue"
+            ]
+          },
+          {
+            "note_label": "Note_15",
+            "note_date": "2003-03-26 20:07:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "possible celiac sprue"
+            ]
+          },
+          {
+            "note_label": "Note_16",
+            "note_date": "2003-03-27 02:30:00",
+            "note_type": "PREVENTIVE CARE INTERVENTIONS (OPTIONAL)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_17",
+            "note_date": "2003-04-08 15:16:00",
+            "note_type": "PREVENTIVE CARE INTERVENTIONS (OPTIONAL)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_18",
+            "note_date": "2003-04-10 19:57:00",
+            "note_type": "PREVENTIVE CARE INTERVENTIONS (OPTIONAL)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_19",
+            "note_date": "2003-04-22 14:31:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_20",
+            "note_date": "2003-04-23 15:14:00",
+            "note_type": "PREVENTIVE CARE INTERVENTIONS (OPTIONAL)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_21",
+            "note_date": "2003-05-02 21:41:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "diagnosed with probably celiac disease in 7/03 and started on gluten free diet",
+              "Probable celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_22",
+            "note_date": "2003-05-03 00:44:00",
+            "note_type": "PREVENTIVE CARE INTERVENTIONS (OPTIONAL)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_23",
+            "note_date": "2003-05-03 05:01:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "Recently diagnosed with celiac disease, and patient is on a gluten-free diet."
+            ]
+          },
+          {
+            "note_label": "Note_24",
+            "note_date": "2003-05-05 05:01:00",
+            "note_type": "DISCHARGE SUMMARY",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Presumed celiac disease.",
+              "Low-fat, gluten-free diet secondary to possible celiac disease."
+            ]
+          },
+          {
+            "note_label": "Note_25",
+            "note_date": "2003-05-05 05:01:00",
+            "note_type": "DISCHARGE SUMMARY",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Presumed celiac disease.",
+              "Low-fat, gluten-free diet secondary to possible celiac disease."
+            ]
+          },
+          {
+            "note_label": "Note_26",
+            "note_date": "2003-05-05 17:50:00",
+            "note_type": "PREVENTIVE CARE INTERVENTIONS (OPTIONAL)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_27",
+            "note_date": "2003-05-07 18:19:00",
+            "note_type": "PREVENTIVE CARE INTERVENTIONS (OPTIONAL)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_28",
+            "note_date": "2003-05-08 17:38:00",
+            "note_type": "PREVENTIVE CARE INTERVENTIONS (OPTIONAL)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_29",
+            "note_date": "2003-05-13 02:04:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "diagnosed with probably celiac disease in 7/03 and started on gluten free diet - discontinued by family on 04/11",
+              "Possible celiac disease: No apparent clinical response to the gluten free diet, diet discontinued"
+            ]
+          },
+          {
+            "note_label": "Note_30",
+            "note_date": "2003-05-13 05:23:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "diagnosed with probably celiac disease in 7/03 and started on gluten free diet - reverted to regular feeds by family after 1 week",
+              "No longer being treated with gluten free diet - no clinical response to diet change."
+            ]
+          },
+          {
+            "note_label": "Note_31",
+            "note_date": "2003-05-13 18:56:00",
+            "note_type": "PREVENTIVE CARE INTERVENTIONS (OPTIONAL)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_32",
+            "note_date": "2003-05-16 13:36:00",
+            "note_type": "PREVENTIVE CARE INTERVENTIONS (OPTIONAL)",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_33",
+            "note_date": "2003-06-18 15:50:00",
+            "note_type": "DISCHARGE SUMMARY",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_34",
+            "note_date": "2005-04-30 22:34:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_35",
+            "note_date": "2008-06-24 15:58:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_36",
+            "note_date": "2013-01-25 17:15:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_37",
+            "note_date": "2013-01-25 17:15:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_38",
+            "note_date": "2013-01-25 22:46:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          }
+        ]
+      },
+      {
+        "agent": "Critic",
+        "round": 1,
+        "num_issues": 5,
+        "needs_re_extraction": false,
+        "issues": [
+          {
+            "note": "Note_4",
+            "type": "phantom_quote",
+            "desc": "Quote not found in note text: \"positive celiac antibodies\""
+          },
+          {
+            "note": "Note_5",
+            "type": "phantom_quote",
+            "desc": "Quote not found in note text: \"positive celiac antibodies\""
+          },
+          {
+            "note": "Note_8",
+            "type": "phantom_quote",
+            "desc": "Quote not found in note text: \"history of celiac disease\""
+          },
+          {
+            "note": "Note_11",
+            "type": "phantom_quote",
+            "desc": "Quote not found in note text: \"possible celiac disease\""
+          },
+          {
+            "note": "Note_12",
+            "type": "phantom_quote",
+            "desc": "Quote not found in note text: \"possible celiac disease\""
+          }
+        ]
+      },
+      {
+        "agent": "Adjudicator",
+        "diagnosis": "Positive",
+        "confidence": 0.85,
+        "decision_path": "Per-note: Note_1(2003-02-27 06:00:00): Positive [IEL positive + Villous abnormal]; Note_2(2003-03-09 15:14:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_3(2003-02-18 14:16:00): Negative [No pathological signal found]; Note_4(2003-02-18 14:16:00): Negative [No pathological signal found]; Note_5(2003-02-18 14:16:00): Negative [No pathological signal found]; Note_6(2003-02-28 06:01:00): Negative [No pathological signal found]; Note_7(2003-03-04 06:01:00): Negative [No pathological signal found]; Note_8(2003-03-05 06:00:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_9(2003-03-18 20:26:00): Negative [No pathological signal found]; Note_10(2003-03-25 23:30:00): Negative [No pathological signal found]; Note_11(2003-03-26 06:01:00): Negative [No pathological signal found]; Note_12(2003-03-26 06:01:00): Negative [No pathological signal found]; Note_13(2003-03-26 20:07:00): Negative [No pathological signal found]; Note_14(2003-03-26 20:07:00): Negative [No pathological signal found]; Note_15(2003-03-26 20:07:00): Negative [No pathological signal found]; Note_16(2003-03-27 02:30:00): Negative [No pathological signal found]; Note_17(2003-04-08 15:16:00): Negative [No pathological signal found]; Note_18(2003-04-10 19:57:00): Negative [No pathological signal found]; Note_19(2003-04-22 14:31:00): Negative [No pathological signal found]; Note_20(2003-04-23 15:14:00): Negative [No pathological signal found]; Note_21(2003-05-02 21:41:00): Negative [No pathological signal found]; Note_22(2003-05-03 00:44:00): Negative [No pathological signal found]; Note_23(2003-05-03 05:01:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_24(2003-05-05 05:01:00): Negative [No pathological signal found]; Note_25(2003-05-05 05:01:00): Negative [No pathological signal found]; Note_26(2003-05-05 17:50:00): Negative [No pathological signal found]; Note_27(2003-05-07 18:19:00): Negative [No pathological signal found]; Note_28(2003-05-08 17:38:00): Negative [No pathological signal found]; Note_29(2003-05-13 02:04:00): Negative [No pathological signal found]; Note_30(2003-05-13 05:23:00): Negative [No pathological signal found]; Note_31(2003-05-13 18:56:00): Negative [No pathological signal found]; Note_32(2003-05-16 13:36:00): Negative [No pathological signal found]; Note_33(2003-06-18 15:50:00): Negative [No pathological signal found]; Note_34(2005-04-30 22:34:00): Negative [No pathological signal found]; Note_35(2008-06-24 15:58:00): Negative [No pathological signal found]; Note_36(2013-01-25 17:15:00): Negative [No pathological signal found]; Note_37(2013-01-25 17:15:00): Negative [No pathological signal found]; Note_38(2013-01-25 22:46:00): Negative [No pathological signal found]. LLM aggregated: Positive. Keyword: Indeterminate. Final: Positive.",
+        "note_decisions": [
+          {
+            "note": "Note_1",
+            "date": "2003-02-27 06:00:00",
+            "decision": "Positive",
+            "rule": "IEL positive + Villous abnormal"
+          },
+          {
+            "note": "Note_2",
+            "date": "2003-03-09 15:14:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_3",
+            "date": "2003-02-18 14:16:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_4",
+            "date": "2003-02-18 14:16:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_5",
+            "date": "2003-02-18 14:16:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_6",
+            "date": "2003-02-28 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_7",
+            "date": "2003-03-04 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_8",
+            "date": "2003-03-05 06:00:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_9",
+            "date": "2003-03-18 20:26:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_10",
+            "date": "2003-03-25 23:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_11",
+            "date": "2003-03-26 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_12",
+            "date": "2003-03-26 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_13",
+            "date": "2003-03-26 20:07:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_14",
+            "date": "2003-03-26 20:07:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_15",
+            "date": "2003-03-26 20:07:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_16",
+            "date": "2003-03-27 02:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_17",
+            "date": "2003-04-08 15:16:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_18",
+            "date": "2003-04-10 19:57:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_19",
+            "date": "2003-04-22 14:31:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_20",
+            "date": "2003-04-23 15:14:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_21",
+            "date": "2003-05-02 21:41:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_22",
+            "date": "2003-05-03 00:44:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_23",
+            "date": "2003-05-03 05:01:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_24",
+            "date": "2003-05-05 05:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_25",
+            "date": "2003-05-05 05:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_26",
+            "date": "2003-05-05 17:50:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_27",
+            "date": "2003-05-07 18:19:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_28",
+            "date": "2003-05-08 17:38:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_29",
+            "date": "2003-05-13 02:04:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_30",
+            "date": "2003-05-13 05:23:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_31",
+            "date": "2003-05-13 18:56:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_32",
+            "date": "2003-05-16 13:36:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_33",
+            "date": "2003-06-18 15:50:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_34",
+            "date": "2005-04-30 22:34:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_35",
+            "date": "2008-06-24 15:58:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_36",
+            "date": "2013-01-25 17:15:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_37",
+            "date": "2013-01-25 17:15:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_38",
+            "date": "2013-01-25 22:46:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_stats": {
+    "reasoning": {
+      "total_calls": 7,
+      "total_time_s": 428.6,
+      "avg_time_s": 61.2
+    },
+    "extraction": {
+      "total_calls": 38,
+      "total_time_s": 779.4,
+      "avg_time_s": 20.5
+    }
+  }
+}

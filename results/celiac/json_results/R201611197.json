@@ -1,0 +1,1863 @@
+{
+  "grid": "R201611197",
+  "diagnosis": "Positive",
+  "confidence": 0.85,
+  "reasoning": "The patient received a Positive celiac disease diagnosis by triggering the decision rule that a single confirmed past diagnosis is sufficient, as celiac disease is a chronic, lifelong condition that cannot be cured. Multiple clinical notes document this established history (e.g., Note_3 on 2010-11-19, Note_4 on 2012-05-03, and Note_99 on 2018-03-03), directly supported by physician statements such as “He has also been diagnosed relatively recently with celiac disease” and “he has also been diagnosed celiac disease which is well controlled with diet.” Although no TTG-IgA lab data or recent biopsy results were available to assess current histological activity, the persistent, un-reversed documentation of a prior confirmed diagnosis across the problem list and clinical notes satisfies the positive classification criteria. Consequently, the aggregated record definitively supports a Positive outcome.",
+  "evidence": [
+    "He has also been diagnosed relatively recently with celiac disease.",
+    "he has also been diagnosed celiac disease which is well controlled with diet.",
+    "celiac disease",
+    "celiac disease",
+    "celiac's disease",
+    "Celiac's disease",
+    "celiac disease",
+    "celiac disease",
+    "celiac disease",
+    "Celiac disease"
+  ],
+  "decision_path": "Per-note: Note_1(2010-11-19 16:33:00): Negative [No pathological signal found]; Note_2(2010-11-19 18:36:00): Negative [No pathological signal found]; Note_3(2010-11-19 21:53:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_4(2012-05-03 18:21:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_5(2013-11-17 01:54:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_6(2013-11-17 04:43:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_7(2013-11-17 14:18:00): Negative [No pathological signal found]; Note_8(2013-11-17 19:50:00): Negative [No pathological signal found]; Note_9(2013-11-18 02:00:00): Negative [No pathological signal found]; Note_10(2013-11-18 03:00:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_11(2013-11-18 15:53:00): Negative [No pathological signal found]; Note_12(2013-11-19 13:52:00): Negative [No pathological signal found]; Note_13(2013-11-19 18:14:00): Negative [No pathological signal found]; Note_14(2013-11-20 04:31:00): Negative [No pathological signal found]; Note_15(2013-11-20 09:12:00): Negative [No pathological signal found]; Note_16(2013-11-20 13:39:00): Negative [No pathological signal found]; Note_17(2013-11-21 00:10:00): Negative [No pathological signal found]; Note_18(2013-11-21 18:22:00): Negative [No pathological signal found]; Note_19(2013-11-21 19:42:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_20(2013-11-21 20:04:00): Negative [No pathological signal found]; Note_21(2013-11-21 21:30:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_22(2013-11-22 10:12:00): Negative [No pathological signal found]; Note_23(2013-11-22 17:05:00): Negative [No pathological signal found]; Note_24(2013-11-23 15:13:00): Negative [No pathological signal found]; Note_25(2013-11-24 06:01:00): Negative [No pathological signal found]; Note_26(2013-11-24 16:33:00): Negative [No pathological signal found]; Note_27(2013-11-25 17:07:00): Negative [No pathological signal found]; Note_28(2013-11-26 14:00:00): Negative [No pathological signal found]; Note_29(2013-11-27 16:27:00): Negative [No pathological signal found]; Note_30(2013-11-27 19:53:00): Negative [No pathological signal found]; Note_31(2013-11-27 22:43:00): Negative [No pathological signal found]; Note_32(2013-11-28 14:28:00): Negative [No pathological signal found]; Note_33(2013-11-28 16:36:00): Negative [No pathological signal found]; Note_34(2013-11-29 16:04:00): Negative [No pathological signal found]; Note_35(2013-11-29 17:55:00): Negative [No pathological signal found]; Note_36(2013-11-30 06:00:00): Negative [No pathological signal found]; Note_37(2013-11-30 15:34:00): Negative [No pathological signal found]; Note_38(2013-11-30 16:02:00): Negative [No pathological signal found]; Note_39(2013-12-01 15:38:00): Negative [No pathological signal found]; Note_40(2013-12-01 16:55:00): Negative [No pathological signal found]; Note_41(2013-12-02 14:07:00): Negative [No pathological signal found]; Note_42(2013-12-02 15:16:00): Negative [No pathological signal found]; Note_43(2013-12-03 14:36:00): Negative [No pathological signal found]; Note_44(2013-12-03 17:13:00): Negative [No pathological signal found]; Note_45(2013-12-04 13:09:00): Negative [No pathological signal found]; Note_46(2013-12-04 20:12:00): Negative [No pathological signal found]; Note_47(2013-12-05 13:36:00): Negative [No pathological signal found]; Note_48(2013-12-05 14:56:00): Negative [No pathological signal found]; Note_49(2013-12-06 21:38:00): Negative [No pathological signal found]; Note_50(2013-12-11 06:01:00): Negative [No pathological signal found]; Note_51(2013-12-13 06:01:00): Negative [No pathological signal found]; Note_52(2013-12-13 21:38:00): Negative [No pathological signal found]; Note_53(2013-12-13 21:39:00): Negative [No pathological signal found]; Note_54(2013-12-13 21:41:00): Negative [No pathological signal found]; Note_55(2013-12-15 06:01:00): Negative [No pathological signal found]; Note_56(2013-12-15 21:13:00): Negative [No pathological signal found]; Note_57(2013-12-19 06:38:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_58(2013-12-19 17:05:00): Negative [No pathological signal found]; Note_59(2013-12-19 17:08:00): Negative [No pathological signal found]; Note_60(2013-12-19 22:12:00): Negative [No pathological signal found]; Note_61(2013-12-20 02:12:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_62(2013-12-20 22:25:00): Negative [No pathological signal found]; Note_63(2013-12-21 06:01:00): Negative [No pathological signal found]; Note_64(2013-12-21 13:26:00): Negative [No pathological signal found]; Note_65(2013-12-21 15:21:00): Negative [No pathological signal found]; Note_66(2013-12-22 10:20:00): Negative [No pathological signal found]; Note_67(2013-12-22 20:29:00): Negative [No pathological signal found]; Note_68(2013-12-23 15:54:00): Negative [No pathological signal found]; Note_69(2013-12-24 14:34:00): Negative [No pathological signal found]; Note_70(2013-12-25 19:51:00): Negative [No pathological signal found]; Note_71(2013-12-25 20:29:00): Negative [No pathological signal found]; Note_72(2013-12-25 20:29:00): Negative [No pathological signal found]; Note_73(2013-12-26 16:11:00): Negative [No pathological signal found]; Note_74(2013-12-26 19:43:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_75(2013-12-27 16:46:00): Negative [No pathological signal found]; Note_76(2013-12-27 21:07:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_77(2013-12-27 21:51:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_78(2013-12-28 13:35:00): Negative [No pathological signal found]; Note_79(2013-12-29 17:35:00): Negative [No pathological signal found]; Note_80(2013-12-29 21:15:00): Negative [No pathological signal found]; Note_81(2013-12-30 16:51:00): Negative [No pathological signal found]; Note_82(2013-12-30 23:01:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_83(2014-01-08 14:54:00): Negative [No pathological signal found]; Note_84(2014-01-17 15:04:00): Negative [No pathological signal found]; Note_85(2014-02-08 17:59:00): Negative [No pathological signal found]; Note_86(2015-11-19 15:20:00): Negative [No pathological signal found]; Note_87(2015-11-22 06:00:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_88(2017-01-08 06:00:00): Negative [No pathological signal found]; Note_89(2017-01-09 01:53:00): Negative [No pathological signal found]; Note_90(2017-01-09 19:48:00): Negative [No pathological signal found]; Note_91(2017-01-10 11:22:00): Negative [No pathological signal found]; Note_92(2017-01-10 18:23:00): Negative [No pathological signal found]; Note_93(2017-09-24 05:00:00): Negative [No pathological signal found]; Note_94(2017-12-27 06:00:00): Negative [No pathological signal found]; Note_95(2018-01-17 06:00:00): Negative [No pathological signal found]; Note_96(2018-01-17 20:45:00): Negative [No pathological signal found]; Note_97(2018-01-19 06:00:00): Negative [No pathological signal found]; Note_98(2018-01-25 06:00:00): Negative [No pathological signal found]; Note_99(2018-03-03 06:00:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_100(2018-03-28 05:00:00): Negative [No pathological signal found]; Note_101(2018-04-04 18:42:00): Negative [No pathological signal found]; Note_102(2018-04-19 05:00:00): Negative [No pathological signal found]; Note_103(2018-04-19 10:00:00): Negative [No pathological signal found]. LLM aggregated: Positive. Keyword: Negative. Final: Positive.",
+  "lab_decision": "excluded",
+  "time_taken_s": 502.2,
+  "trace": {
+    "grid": "R201611197",
+    "steps": [
+      {
+        "agent": "DataGatherer",
+        "summary": "PatientDossier for R201611197\n  Labs: 0 entries\n  Notes: 103 notes\n  TTG decision: excluded\n  Keyword decision: Negative\n  Relevant notes for LLM: 103"
+      },
+      {
+        "agent": "SignalExtractor",
+        "num_notes": 103,
+        "num_signals": 103,
+        "signals": [
+          {
+            "note_label": "Note_1",
+            "note_date": "2010-11-19 16:33:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_2",
+            "note_date": "2010-11-19 18:36:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_3",
+            "note_date": "2010-11-19 21:53:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "He has also been diagnosed relatively recently with celiac disease."
+            ]
+          },
+          {
+            "note_label": "Note_4",
+            "note_date": "2012-05-03 18:21:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "he has also been diagnosed celiac disease which is well controlled with diet."
+            ]
+          },
+          {
+            "note_label": "Note_5",
+            "note_date": "2013-11-17 01:54:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_6",
+            "note_date": "2013-11-17 04:43:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_7",
+            "note_date": "2013-11-17 14:18:00",
+            "note_type": "OPERATIVE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_8",
+            "note_date": "2013-11-17 19:50:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_9",
+            "note_date": "2013-11-18 02:00:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_10",
+            "note_date": "2013-11-18 03:00:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac's disease",
+              "Celiac's disease"
+            ]
+          },
+          {
+            "note_label": "Note_11",
+            "note_date": "2013-11-18 15:53:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_12",
+            "note_date": "2013-11-19 13:52:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_13",
+            "note_date": "2013-11-19 18:14:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_14",
+            "note_date": "2013-11-20 04:31:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_15",
+            "note_date": "2013-11-20 09:12:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_16",
+            "note_date": "2013-11-20 13:39:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_17",
+            "note_date": "2013-11-21 00:10:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_18",
+            "note_date": "2013-11-21 18:22:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_19",
+            "note_date": "2013-11-21 19:42:00",
+            "note_type": "REHAB",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_20",
+            "note_date": "2013-11-21 20:04:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_21",
+            "note_date": "2013-11-21 21:30:00",
+            "note_type": "REHAB",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_22",
+            "note_date": "2013-11-22 10:12:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_23",
+            "note_date": "2013-11-22 17:05:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_24",
+            "note_date": "2013-11-23 15:13:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_25",
+            "note_date": "2013-11-24 06:01:00",
+            "note_type": "DISCHARGE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_26",
+            "note_date": "2013-11-24 16:33:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_27",
+            "note_date": "2013-11-25 17:07:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_28",
+            "note_date": "2013-11-26 14:00:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_29",
+            "note_date": "2013-11-27 16:27:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_30",
+            "note_date": "2013-11-27 19:53:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_31",
+            "note_date": "2013-11-27 22:43:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_32",
+            "note_date": "2013-11-28 14:28:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_33",
+            "note_date": "2013-11-28 16:36:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_34",
+            "note_date": "2013-11-29 16:04:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_35",
+            "note_date": "2013-11-29 17:55:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_36",
+            "note_date": "2013-11-30 06:00:00",
+            "note_type": "PATH",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_37",
+            "note_date": "2013-11-30 15:34:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_38",
+            "note_date": "2013-11-30 16:02:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_39",
+            "note_date": "2013-12-01 15:38:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_40",
+            "note_date": "2013-12-01 16:55:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_41",
+            "note_date": "2013-12-02 14:07:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_42",
+            "note_date": "2013-12-02 15:16:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_43",
+            "note_date": "2013-12-03 14:36:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_44",
+            "note_date": "2013-12-03 17:13:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_45",
+            "note_date": "2013-12-04 13:09:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_46",
+            "note_date": "2013-12-04 20:12:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_47",
+            "note_date": "2013-12-05 13:36:00",
+            "note_type": "ORDERS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_48",
+            "note_date": "2013-12-05 14:56:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_49",
+            "note_date": "2013-12-06 21:38:00",
+            "note_type": "DISCHARGE SUMMARY",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_50",
+            "note_date": "2013-12-11 06:01:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_51",
+            "note_date": "2013-12-13 06:01:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_52",
+            "note_date": "2013-12-13 21:38:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_53",
+            "note_date": "2013-12-13 21:39:00",
+            "note_type": "ADMIN",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_54",
+            "note_date": "2013-12-13 21:41:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_55",
+            "note_date": "2013-12-15 06:01:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_56",
+            "note_date": "2013-12-15 21:13:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_57",
+            "note_date": "2013-12-19 06:38:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_58",
+            "note_date": "2013-12-19 17:05:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_59",
+            "note_date": "2013-12-19 17:08:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_60",
+            "note_date": "2013-12-19 22:12:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_61",
+            "note_date": "2013-12-20 02:12:00",
+            "note_type": "OPERATIVE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "Celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_62",
+            "note_date": "2013-12-20 22:25:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_63",
+            "note_date": "2013-12-21 06:01:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_64",
+            "note_date": "2013-12-21 13:26:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_65",
+            "note_date": "2013-12-21 15:21:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_66",
+            "note_date": "2013-12-22 10:20:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_67",
+            "note_date": "2013-12-22 20:29:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_68",
+            "note_date": "2013-12-23 15:54:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_69",
+            "note_date": "2013-12-24 14:34:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_70",
+            "note_date": "2013-12-25 19:51:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_71",
+            "note_date": "2013-12-25 20:29:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_72",
+            "note_date": "2013-12-25 20:29:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_73",
+            "note_date": "2013-12-26 16:11:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_74",
+            "note_date": "2013-12-26 19:43:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "celiac disease",
+              "Celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_75",
+            "note_date": "2013-12-27 16:46:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_76",
+            "note_date": "2013-12-27 21:07:00",
+            "note_type": "REHAB",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "Celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_77",
+            "note_date": "2013-12-27 21:51:00",
+            "note_type": "REHAB",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "Celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_78",
+            "note_date": "2013-12-28 13:35:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_79",
+            "note_date": "2013-12-29 17:35:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_80",
+            "note_date": "2013-12-29 21:15:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_81",
+            "note_date": "2013-12-30 16:51:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_82",
+            "note_date": "2013-12-30 23:01:00",
+            "note_type": "DISCHARGE SUMMARY",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "Celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_83",
+            "note_date": "2014-01-08 14:54:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_84",
+            "note_date": "2014-01-17 15:04:00",
+            "note_type": "NURSING NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_85",
+            "note_date": "2014-02-08 17:59:00",
+            "note_type": "OPERATIVE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_86",
+            "note_date": "2015-11-19 15:20:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_87",
+            "note_date": "2015-11-22 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "chronic dlarhei-has celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_88",
+            "note_date": "2017-01-08 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_89",
+            "note_date": "2017-01-09 01:53:00",
+            "note_type": "NURSING NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_90",
+            "note_date": "2017-01-09 19:48:00",
+            "note_type": "CONSULT REQUEST",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_91",
+            "note_date": "2017-01-10 11:22:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_92",
+            "note_date": "2017-01-10 18:23:00",
+            "note_type": "DISCHARGE SUMMARY",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_93",
+            "note_date": "2017-09-24 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_94",
+            "note_date": "2017-12-27 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_95",
+            "note_date": "2018-01-17 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_96",
+            "note_date": "2018-01-17 20:45:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_97",
+            "note_date": "2018-01-19 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_98",
+            "note_date": "2018-01-25 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_99",
+            "note_date": "2018-03-03 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": true,
+            "supporting_quotes": [
+              "Celiac disease"
+            ]
+          },
+          {
+            "note_label": "Note_100",
+            "note_date": "2018-03-28 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_101",
+            "note_date": "2018-04-04 18:42:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_102",
+            "note_date": "2018-04-19 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_103",
+            "note_date": "2018-04-19 10:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          }
+        ]
+      },
+      {
+        "agent": "Critic",
+        "round": 1,
+        "num_issues": 3,
+        "needs_re_extraction": false,
+        "issues": [
+          {
+            "note": "Note_6",
+            "type": "phantom_quote",
+            "desc": "Quote not found in note text: \"celiac disease\""
+          },
+          {
+            "note": "Note_82",
+            "type": "phantom_quote",
+            "desc": "Quote not found in note text: \"Celiac disease\""
+          },
+          {
+            "note": "Note_87",
+            "type": "phantom_quote",
+            "desc": "Quote not found in note text: \"chronic dlarhei-has celiac disease\""
+          }
+        ]
+      },
+      {
+        "agent": "Adjudicator",
+        "diagnosis": "Positive",
+        "confidence": 0.85,
+        "decision_path": "Per-note: Note_1(2010-11-19 16:33:00): Negative [No pathological signal found]; Note_2(2010-11-19 18:36:00): Negative [No pathological signal found]; Note_3(2010-11-19 21:53:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_4(2012-05-03 18:21:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_5(2013-11-17 01:54:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_6(2013-11-17 04:43:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_7(2013-11-17 14:18:00): Negative [No pathological signal found]; Note_8(2013-11-17 19:50:00): Negative [No pathological signal found]; Note_9(2013-11-18 02:00:00): Negative [No pathological signal found]; Note_10(2013-11-18 03:00:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_11(2013-11-18 15:53:00): Negative [No pathological signal found]; Note_12(2013-11-19 13:52:00): Negative [No pathological signal found]; Note_13(2013-11-19 18:14:00): Negative [No pathological signal found]; Note_14(2013-11-20 04:31:00): Negative [No pathological signal found]; Note_15(2013-11-20 09:12:00): Negative [No pathological signal found]; Note_16(2013-11-20 13:39:00): Negative [No pathological signal found]; Note_17(2013-11-21 00:10:00): Negative [No pathological signal found]; Note_18(2013-11-21 18:22:00): Negative [No pathological signal found]; Note_19(2013-11-21 19:42:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_20(2013-11-21 20:04:00): Negative [No pathological signal found]; Note_21(2013-11-21 21:30:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_22(2013-11-22 10:12:00): Negative [No pathological signal found]; Note_23(2013-11-22 17:05:00): Negative [No pathological signal found]; Note_24(2013-11-23 15:13:00): Negative [No pathological signal found]; Note_25(2013-11-24 06:01:00): Negative [No pathological signal found]; Note_26(2013-11-24 16:33:00): Negative [No pathological signal found]; Note_27(2013-11-25 17:07:00): Negative [No pathological signal found]; Note_28(2013-11-26 14:00:00): Negative [No pathological signal found]; Note_29(2013-11-27 16:27:00): Negative [No pathological signal found]; Note_30(2013-11-27 19:53:00): Negative [No pathological signal found]; Note_31(2013-11-27 22:43:00): Negative [No pathological signal found]; Note_32(2013-11-28 14:28:00): Negative [No pathological signal found]; Note_33(2013-11-28 16:36:00): Negative [No pathological signal found]; Note_34(2013-11-29 16:04:00): Negative [No pathological signal found]; Note_35(2013-11-29 17:55:00): Negative [No pathological signal found]; Note_36(2013-11-30 06:00:00): Negative [No pathological signal found]; Note_37(2013-11-30 15:34:00): Negative [No pathological signal found]; Note_38(2013-11-30 16:02:00): Negative [No pathological signal found]; Note_39(2013-12-01 15:38:00): Negative [No pathological signal found]; Note_40(2013-12-01 16:55:00): Negative [No pathological signal found]; Note_41(2013-12-02 14:07:00): Negative [No pathological signal found]; Note_42(2013-12-02 15:16:00): Negative [No pathological signal found]; Note_43(2013-12-03 14:36:00): Negative [No pathological signal found]; Note_44(2013-12-03 17:13:00): Negative [No pathological signal found]; Note_45(2013-12-04 13:09:00): Negative [No pathological signal found]; Note_46(2013-12-04 20:12:00): Negative [No pathological signal found]; Note_47(2013-12-05 13:36:00): Negative [No pathological signal found]; Note_48(2013-12-05 14:56:00): Negative [No pathological signal found]; Note_49(2013-12-06 21:38:00): Negative [No pathological signal found]; Note_50(2013-12-11 06:01:00): Negative [No pathological signal found]; Note_51(2013-12-13 06:01:00): Negative [No pathological signal found]; Note_52(2013-12-13 21:38:00): Negative [No pathological signal found]; Note_53(2013-12-13 21:39:00): Negative [No pathological signal found]; Note_54(2013-12-13 21:41:00): Negative [No pathological signal found]; Note_55(2013-12-15 06:01:00): Negative [No pathological signal found]; Note_56(2013-12-15 21:13:00): Negative [No pathological signal found]; Note_57(2013-12-19 06:38:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_58(2013-12-19 17:05:00): Negative [No pathological signal found]; Note_59(2013-12-19 17:08:00): Negative [No pathological signal found]; Note_60(2013-12-19 22:12:00): Negative [No pathological signal found]; Note_61(2013-12-20 02:12:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_62(2013-12-20 22:25:00): Negative [No pathological signal found]; Note_63(2013-12-21 06:01:00): Negative [No pathological signal found]; Note_64(2013-12-21 13:26:00): Negative [No pathological signal found]; Note_65(2013-12-21 15:21:00): Negative [No pathological signal found]; Note_66(2013-12-22 10:20:00): Negative [No pathological signal found]; Note_67(2013-12-22 20:29:00): Negative [No pathological signal found]; Note_68(2013-12-23 15:54:00): Negative [No pathological signal found]; Note_69(2013-12-24 14:34:00): Negative [No pathological signal found]; Note_70(2013-12-25 19:51:00): Negative [No pathological signal found]; Note_71(2013-12-25 20:29:00): Negative [No pathological signal found]; Note_72(2013-12-25 20:29:00): Negative [No pathological signal found]; Note_73(2013-12-26 16:11:00): Negative [No pathological signal found]; Note_74(2013-12-26 19:43:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_75(2013-12-27 16:46:00): Negative [No pathological signal found]; Note_76(2013-12-27 21:07:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_77(2013-12-27 21:51:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_78(2013-12-28 13:35:00): Negative [No pathological signal found]; Note_79(2013-12-29 17:35:00): Negative [No pathological signal found]; Note_80(2013-12-29 21:15:00): Negative [No pathological signal found]; Note_81(2013-12-30 16:51:00): Negative [No pathological signal found]; Note_82(2013-12-30 23:01:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_83(2014-01-08 14:54:00): Negative [No pathological signal found]; Note_84(2014-01-17 15:04:00): Negative [No pathological signal found]; Note_85(2014-02-08 17:59:00): Negative [No pathological signal found]; Note_86(2015-11-19 15:20:00): Negative [No pathological signal found]; Note_87(2015-11-22 06:00:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_88(2017-01-08 06:00:00): Negative [No pathological signal found]; Note_89(2017-01-09 01:53:00): Negative [No pathological signal found]; Note_90(2017-01-09 19:48:00): Negative [No pathological signal found]; Note_91(2017-01-10 11:22:00): Negative [No pathological signal found]; Note_92(2017-01-10 18:23:00): Negative [No pathological signal found]; Note_93(2017-09-24 05:00:00): Negative [No pathological signal found]; Note_94(2017-12-27 06:00:00): Negative [No pathological signal found]; Note_95(2018-01-17 06:00:00): Negative [No pathological signal found]; Note_96(2018-01-17 20:45:00): Negative [No pathological signal found]; Note_97(2018-01-19 06:00:00): Negative [No pathological signal found]; Note_98(2018-01-25 06:00:00): Negative [No pathological signal found]; Note_99(2018-03-03 06:00:00): Positive [Past celiac diagnosis (celiac cannot be cured)]; Note_100(2018-03-28 05:00:00): Negative [No pathological signal found]; Note_101(2018-04-04 18:42:00): Negative [No pathological signal found]; Note_102(2018-04-19 05:00:00): Negative [No pathological signal found]; Note_103(2018-04-19 10:00:00): Negative [No pathological signal found]. LLM aggregated: Positive. Keyword: Negative. Final: Positive.",
+        "note_decisions": [
+          {
+            "note": "Note_1",
+            "date": "2010-11-19 16:33:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_2",
+            "date": "2010-11-19 18:36:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_3",
+            "date": "2010-11-19 21:53:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_4",
+            "date": "2012-05-03 18:21:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_5",
+            "date": "2013-11-17 01:54:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_6",
+            "date": "2013-11-17 04:43:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_7",
+            "date": "2013-11-17 14:18:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_8",
+            "date": "2013-11-17 19:50:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_9",
+            "date": "2013-11-18 02:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_10",
+            "date": "2013-11-18 03:00:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_11",
+            "date": "2013-11-18 15:53:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_12",
+            "date": "2013-11-19 13:52:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_13",
+            "date": "2013-11-19 18:14:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_14",
+            "date": "2013-11-20 04:31:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_15",
+            "date": "2013-11-20 09:12:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_16",
+            "date": "2013-11-20 13:39:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_17",
+            "date": "2013-11-21 00:10:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_18",
+            "date": "2013-11-21 18:22:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_19",
+            "date": "2013-11-21 19:42:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_20",
+            "date": "2013-11-21 20:04:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_21",
+            "date": "2013-11-21 21:30:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_22",
+            "date": "2013-11-22 10:12:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_23",
+            "date": "2013-11-22 17:05:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_24",
+            "date": "2013-11-23 15:13:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_25",
+            "date": "2013-11-24 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_26",
+            "date": "2013-11-24 16:33:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_27",
+            "date": "2013-11-25 17:07:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_28",
+            "date": "2013-11-26 14:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_29",
+            "date": "2013-11-27 16:27:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_30",
+            "date": "2013-11-27 19:53:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_31",
+            "date": "2013-11-27 22:43:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_32",
+            "date": "2013-11-28 14:28:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_33",
+            "date": "2013-11-28 16:36:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_34",
+            "date": "2013-11-29 16:04:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_35",
+            "date": "2013-11-29 17:55:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_36",
+            "date": "2013-11-30 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_37",
+            "date": "2013-11-30 15:34:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_38",
+            "date": "2013-11-30 16:02:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_39",
+            "date": "2013-12-01 15:38:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_40",
+            "date": "2013-12-01 16:55:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_41",
+            "date": "2013-12-02 14:07:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_42",
+            "date": "2013-12-02 15:16:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_43",
+            "date": "2013-12-03 14:36:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_44",
+            "date": "2013-12-03 17:13:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_45",
+            "date": "2013-12-04 13:09:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_46",
+            "date": "2013-12-04 20:12:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_47",
+            "date": "2013-12-05 13:36:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_48",
+            "date": "2013-12-05 14:56:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_49",
+            "date": "2013-12-06 21:38:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_50",
+            "date": "2013-12-11 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_51",
+            "date": "2013-12-13 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_52",
+            "date": "2013-12-13 21:38:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_53",
+            "date": "2013-12-13 21:39:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_54",
+            "date": "2013-12-13 21:41:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_55",
+            "date": "2013-12-15 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_56",
+            "date": "2013-12-15 21:13:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_57",
+            "date": "2013-12-19 06:38:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_58",
+            "date": "2013-12-19 17:05:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_59",
+            "date": "2013-12-19 17:08:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_60",
+            "date": "2013-12-19 22:12:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_61",
+            "date": "2013-12-20 02:12:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_62",
+            "date": "2013-12-20 22:25:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_63",
+            "date": "2013-12-21 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_64",
+            "date": "2013-12-21 13:26:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_65",
+            "date": "2013-12-21 15:21:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_66",
+            "date": "2013-12-22 10:20:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_67",
+            "date": "2013-12-22 20:29:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_68",
+            "date": "2013-12-23 15:54:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_69",
+            "date": "2013-12-24 14:34:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_70",
+            "date": "2013-12-25 19:51:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_71",
+            "date": "2013-12-25 20:29:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_72",
+            "date": "2013-12-25 20:29:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_73",
+            "date": "2013-12-26 16:11:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_74",
+            "date": "2013-12-26 19:43:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_75",
+            "date": "2013-12-27 16:46:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_76",
+            "date": "2013-12-27 21:07:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_77",
+            "date": "2013-12-27 21:51:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_78",
+            "date": "2013-12-28 13:35:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_79",
+            "date": "2013-12-29 17:35:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_80",
+            "date": "2013-12-29 21:15:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_81",
+            "date": "2013-12-30 16:51:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_82",
+            "date": "2013-12-30 23:01:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_83",
+            "date": "2014-01-08 14:54:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_84",
+            "date": "2014-01-17 15:04:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_85",
+            "date": "2014-02-08 17:59:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_86",
+            "date": "2015-11-19 15:20:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_87",
+            "date": "2015-11-22 06:00:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_88",
+            "date": "2017-01-08 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_89",
+            "date": "2017-01-09 01:53:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_90",
+            "date": "2017-01-09 19:48:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_91",
+            "date": "2017-01-10 11:22:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_92",
+            "date": "2017-01-10 18:23:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_93",
+            "date": "2017-09-24 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_94",
+            "date": "2017-12-27 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_95",
+            "date": "2018-01-17 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_96",
+            "date": "2018-01-17 20:45:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_97",
+            "date": "2018-01-19 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_98",
+            "date": "2018-01-25 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_99",
+            "date": "2018-03-03 06:00:00",
+            "decision": "Positive",
+            "rule": "Past celiac diagnosis (celiac cannot be cured)"
+          },
+          {
+            "note": "Note_100",
+            "date": "2018-03-28 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_101",
+            "date": "2018-04-04 18:42:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_102",
+            "date": "2018-04-19 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_103",
+            "date": "2018-04-19 10:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_stats": {
+    "reasoning": {
+      "total_calls": 11,
+      "total_time_s": 857.6,
+      "avg_time_s": 78.0
+    },
+    "extraction": {
+      "total_calls": 76,
+      "total_time_s": 1600.8,
+      "avg_time_s": 21.1
+    }
+  }
+}

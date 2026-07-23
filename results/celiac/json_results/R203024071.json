@@ -1,0 +1,4120 @@
+{
+  "grid": "R203024071",
+  "diagnosis": "Negative",
+  "confidence": 0.95,
+  "reasoning": "Although the patient demonstrated positive TTG-IgA serology (36.54 units on 2020-06-12), a definitive celiac disease diagnosis requires confirmatory histopathological evidence per the clinical decision rules. A systematic review of all 239 clinical notes identified no matching phrases for increased intraepithelial lymphocytes, villous blunting or atrophy, a Marsh 3/4 grade, or external biopsy confirmation. The available pathology documentation explicitly stated that \"the examined duodenum was normal,\" confirming intact villous architecture and unremarkable lymphocyte counts. Because no positive histological signals were detected, the \"no pathological signal found\" rule was triggered across all notes, satisfying the Negative outcome criteria due to the complete absence of required biopsy evidence.",
+  "evidence": [
+    "The examined duodenum was normal."
+  ],
+  "decision_path": "Per-note: Note_1(2008-02-27 21:45:00): Negative [No pathological signal found]; Note_2(2009-09-02 23:47:00): Negative [No pathological signal found]; Note_3(2009-09-14 05:00:00): Negative [No pathological signal found]; Note_4(2009-09-14 05:01:00): Negative [No pathological signal found]; Note_5(2009-09-20 04:47:00): Negative [No pathological signal found]; Note_6(2009-09-21 19:38:00): Negative [No pathological signal found]; Note_7(2009-09-21 19:38:00): Negative [No pathological signal found]; Note_8(2009-09-22 16:33:00): Negative [No pathological signal found]; Note_9(2009-09-22 19:00:00): Negative [No pathological signal found]; Note_10(2009-09-22 19:48:00): Negative [No pathological signal found]; Note_11(2009-09-24 05:01:00): Negative [No pathological signal found]; Note_12(2009-09-24 05:01:00): Negative [No pathological signal found]; Note_13(2009-09-25 01:00:00): Negative [No pathological signal found]; Note_14(2009-09-25 04:18:00): Negative [No pathological signal found]; Note_15(2009-09-25 11:16:00): Negative [No pathological signal found]; Note_16(2009-09-26 04:49:00): Negative [No pathological signal found]; Note_17(2009-09-26 08:54:00): Negative [No pathological signal found]; Note_18(2009-09-26 12:02:00): Negative [No pathological signal found]; Note_19(2009-09-26 13:04:00): Negative [No pathological signal found]; Note_20(2009-09-26 17:14:00): Negative [No pathological signal found]; Note_21(2009-09-26 20:55:00): Negative [No pathological signal found]; Note_22(2009-09-27 01:14:00): Negative [No pathological signal found]; Note_23(2009-09-27 05:47:00): Negative [No pathological signal found]; Note_24(2009-09-27 09:36:00): Negative [No pathological signal found]; Note_25(2009-09-27 12:56:00): Negative [No pathological signal found]; Note_26(2009-09-27 17:16:00): Negative [No pathological signal found]; Note_27(2009-09-27 20:19:00): Negative [No pathological signal found]; Note_28(2009-09-28 00:59:00): Negative [No pathological signal found]; Note_29(2009-09-28 04:34:00): Negative [No pathological signal found]; Note_30(2009-09-28 08:28:00): Negative [No pathological signal found]; Note_31(2009-09-28 13:25:00): Negative [No pathological signal found]; Note_32(2009-09-28 16:55:00): Negative [No pathological signal found]; Note_33(2009-09-28 17:59:00): Negative [No pathological signal found]; Note_34(2009-09-28 21:05:00): Negative [No pathological signal found]; Note_35(2009-09-29 00:25:00): Negative [No pathological signal found]; Note_36(2009-09-29 01:13:00): Negative [No pathological signal found]; Note_37(2009-09-29 05:01:00): Negative [No pathological signal found]; Note_38(2009-09-29 12:39:00): Negative [No pathological signal found]; Note_39(2009-09-29 16:57:00): Negative [No pathological signal found]; Note_40(2009-09-30 00:50:00): Negative [No pathological signal found]; Note_41(2009-09-30 01:54:00): Negative [No pathological signal found]; Note_42(2009-09-30 04:53:00): Negative [No pathological signal found]; Note_43(2009-09-30 05:01:00): Negative [No pathological signal found]; Note_44(2009-09-30 09:26:00): Negative [No pathological signal found]; Note_45(2009-09-30 10:43:00): Negative [No pathological signal found]; Note_46(2009-09-30 19:21:00): Negative [No pathological signal found]; Note_47(2009-10-01 06:24:00): Negative [No pathological signal found]; Note_48(2009-10-01 09:09:00): Negative [No pathological signal found]; Note_49(2009-10-01 13:12:00): Negative [No pathological signal found]; Note_50(2009-10-01 17:00:00): Negative [No pathological signal found]; Note_51(2009-10-01 20:54:00): Negative [No pathological signal found]; Note_52(2009-10-02 00:30:00): Negative [No pathological signal found]; Note_53(2009-10-02 04:55:00): Negative [No pathological signal found]; Note_54(2009-10-02 09:00:00): Negative [No pathological signal found]; Note_55(2009-10-05 14:32:00): Negative [No pathological signal found]; Note_56(2009-10-05 14:33:00): Negative [No pathological signal found]; Note_57(2009-10-05 20:34:00): Negative [No pathological signal found]; Note_58(2009-10-05 20:58:00): Negative [No pathological signal found]; Note_59(2009-10-08 05:01:00): Negative [No pathological signal found]; Note_60(2009-10-08 12:57:00): Negative [No pathological signal found]; Note_61(2009-10-09 14:34:00): Negative [No pathological signal found]; Note_62(2009-10-09 14:34:00): Negative [No pathological signal found]; Note_63(2009-10-13 17:02:00): Negative [No pathological signal found]; Note_64(2009-10-13 22:08:00): Negative [No pathological signal found]; Note_65(2009-12-14 06:01:00): Negative [No pathological signal found]; Note_66(2010-02-22 06:00:00): Negative [No pathological signal found]; Note_67(2010-02-22 06:01:00): Negative [No pathological signal found]; Note_68(2010-02-25 19:17:00): Negative [No pathological signal found]; Note_69(2010-02-25 19:17:00): Negative [No pathological signal found]; Note_70(2010-03-30 13:46:00): Negative [No pathological signal found]; Note_71(2010-03-30 13:54:00): Negative [No pathological signal found]; Note_72(2010-07-06 14:24:00): Negative [No pathological signal found]; Note_73(2010-07-06 14:44:00): Negative [No pathological signal found]; Note_74(2010-09-01 22:29:00): Negative [No pathological signal found]; Note_75(2010-09-05 15:59:00): Negative [No pathological signal found]; Note_76(2011-05-17 16:21:00): Negative [No pathological signal found]; Note_77(2011-05-17 16:49:00): Negative [No pathological signal found]; Note_78(2011-07-13 05:00:00): Negative [No pathological signal found]; Note_79(2011-07-13 05:01:00): Negative [No pathological signal found]; Note_80(2011-07-13 12:20:00): Negative [No pathological signal found]; Note_81(2011-07-18 18:29:00): Negative [No pathological signal found]; Note_82(2013-01-16 19:11:00): Negative [No pathological signal found]; Note_83(2013-04-22 21:09:00): Negative [No pathological signal found]; Note_84(2013-04-28 19:00:00): Negative [No pathological signal found]; Note_85(2014-11-04 20:03:00): Negative [No pathological signal found]; Note_86(2014-11-25 06:00:00): Negative [No pathological signal found]; Note_87(2014-11-25 06:00:00): Negative [No pathological signal found]; Note_88(2014-11-25 20:50:00): Negative [No pathological signal found]; Note_89(2014-11-25 21:28:00): Negative [No pathological signal found]; Note_90(2014-11-26 00:30:00): Negative [No pathological signal found]; Note_91(2014-11-26 06:01:00): Negative [No pathological signal found]; Note_92(2014-11-26 17:02:00): Negative [No pathological signal found]; Note_93(2014-11-26 18:24:00): Negative [No pathological signal found]; Note_94(2014-11-26 18:24:00): Negative [No pathological signal found]; Note_95(2014-11-26 20:18:00): Negative [No pathological signal found]; Note_96(2014-11-27 06:01:00): Negative [No pathological signal found]; Note_97(2014-11-28 06:01:00): Negative [No pathological signal found]; Note_98(2014-11-29 06:01:00): Negative [No pathological signal found]; Note_99(2014-11-30 18:40:00): Negative [No pathological signal found]; Note_100(2014-11-30 18:40:00): Negative [No pathological signal found]; Note_101(2014-11-30 20:49:00): Negative [No pathological signal found]; Note_102(2014-11-30 22:02:00): Negative [No pathological signal found]; Note_103(2014-12-02 21:21:00): Negative [No pathological signal found]; Note_104(2014-12-02 23:20:00): Negative [No pathological signal found]; Note_105(2014-12-04 21:22:00): Negative [No pathological signal found]; Note_106(2014-12-11 14:00:00): Negative [No pathological signal found]; Note_107(2014-12-11 15:30:00): Negative [No pathological signal found]; Note_108(2014-12-14 06:01:00): Negative [No pathological signal found]; Note_109(2014-12-14 06:01:00): Negative [No pathological signal found]; Note_110(2014-12-14 14:45:00): Negative [No pathological signal found]; Note_111(2014-12-16 06:00:00): Negative [No pathological signal found]; Note_112(2014-12-16 06:00:00): Negative [No pathological signal found]; Note_113(2014-12-16 06:00:00): Negative [No pathological signal found]; Note_114(2014-12-16 22:06:00): Negative [No pathological signal found]; Note_115(2014-12-17 14:11:00): Negative [No pathological signal found]; Note_116(2014-12-17 18:03:00): Negative [No pathological signal found]; Note_117(2014-12-18 06:01:00): Negative [No pathological signal found]; Note_118(2014-12-22 06:01:00): Negative [No pathological signal found]; Note_119(2014-12-24 06:01:00): Negative [No pathological signal found]; Note_120(2014-12-24 06:01:00): Negative [No pathological signal found]; Note_121(2014-12-25 00:30:00): Negative [No pathological signal found]; Note_122(2014-12-25 04:00:00): Negative [No pathological signal found]; Note_123(2014-12-25 22:03:00): Negative [No pathological signal found]; Note_124(2014-12-25 22:10:00): Negative [No pathological signal found]; Note_125(2014-12-26 04:01:00): Negative [No pathological signal found]; Note_126(2014-12-28 13:21:00): Negative [No pathological signal found]; Note_127(2014-12-29 19:19:00): Negative [No pathological signal found]; Note_128(2015-01-03 14:41:00): Negative [No pathological signal found]; Note_129(2015-01-03 14:41:00): Negative [No pathological signal found]; Note_130(2015-01-12 17:41:00): Negative [No pathological signal found]; Note_131(2015-02-02 15:29:00): Negative [No pathological signal found]; Note_132(2015-02-02 15:29:00): Negative [No pathological signal found]; Note_133(2015-02-02 15:29:00): Negative [No pathological signal found]; Note_134(2015-02-02 15:29:00): Negative [No pathological signal found]; Note_135(2015-02-02 15:40:00): Negative [No pathological signal found]; Note_136(2015-02-02 16:07:00): Negative [No pathological signal found]; Note_137(2015-02-02 16:07:00): Negative [No pathological signal found]; Note_138(2015-05-19 16:18:00): Negative [No pathological signal found]; Note_139(2015-06-01 15:00:00): Negative [No pathological signal found]; Note_140(2015-06-01 15:21:00): Negative [No pathological signal found]; Note_141(2015-06-01 15:21:00): Negative [No pathological signal found]; Note_142(2015-07-06 17:01:00): Negative [No pathological signal found]; Note_143(2015-07-06 17:01:00): Negative [No pathological signal found]; Note_144(2015-07-12 18:26:00): Negative [No pathological signal found]; Note_145(2015-07-12 18:26:00): Negative [No pathological signal found]; Note_146(2015-07-12 18:26:00): Negative [No pathological signal found]; Note_147(2015-07-12 18:26:00): Negative [No pathological signal found]; Note_148(2015-07-12 18:45:00): Negative [No pathological signal found]; Note_149(2015-07-12 18:45:00): Negative [No pathological signal found]; Note_150(2015-09-23 15:38:00): Negative [No pathological signal found]; Note_151(2015-09-28 15:30:00): Negative [No pathological signal found]; Note_152(2015-09-28 15:30:00): Negative [No pathological signal found]; Note_153(2015-09-28 15:40:00): Negative [No pathological signal found]; Note_154(2016-02-07 16:15:00): Negative [No pathological signal found]; Note_155(2016-02-07 16:19:00): Negative [No pathological signal found]; Note_156(2016-02-07 16:19:00): Negative [No pathological signal found]; Note_157(2016-03-23 17:58:00): Negative [No pathological signal found]; Note_158(2016-03-29 13:30:00): Negative [No pathological signal found]; Note_159(2016-03-30 14:48:00): Negative [No pathological signal found]; Note_160(2016-03-30 17:11:00): Negative [No pathological signal found]; Note_161(2016-04-04 16:44:00): Negative [No pathological signal found]; Note_162(2016-05-01 18:04:00): Negative [No pathological signal found]; Note_163(2016-05-01 18:04:00): Negative [No pathological signal found]; Note_164(2016-05-25 16:21:00): Negative [No pathological signal found]; Note_165(2016-05-25 16:21:00): Negative [No pathological signal found]; Note_166(2016-05-25 16:40:00): Negative [No pathological signal found]; Note_167(2016-10-09 13:30:00): Negative [No pathological signal found]; Note_168(2016-10-09 13:30:00): Negative [No pathological signal found]; Note_169(2016-10-24 18:08:00): Negative [No pathological signal found]; Note_170(2016-10-24 18:08:00): Negative [No pathological signal found]; Note_171(2016-10-24 18:20:00): Negative [No pathological signal found]; Note_172(2017-05-23 18:45:00): Negative [No pathological signal found]; Note_173(2017-08-14 05:00:00): Negative [No pathological signal found]; Note_174(2017-08-16 10:39:00): Negative [No pathological signal found]; Note_175(2017-08-16 19:22:00): Negative [No pathological signal found]; Note_176(2017-08-17 05:00:00): Negative [No pathological signal found]; Note_177(2017-08-17 20:20:00): Negative [No pathological signal found]; Note_178(2017-10-09 19:00:00): Negative [No pathological signal found]; Note_179(2019-08-04 05:00:00): Negative [No pathological signal found]; Note_180(2019-08-04 05:00:00): Negative [No pathological signal found]; Note_181(2019-08-04 05:00:00): Negative [No pathological signal found]; Note_182(2019-08-04 05:00:00): Negative [No pathological signal found]; Note_183(2019-08-04 05:00:00): Negative [No pathological signal found]; Note_184(2019-08-04 05:00:00): Negative [No pathological signal found]; Note_185(2019-08-04 18:01:00): Negative [No pathological signal found]; Note_186(2019-08-04 21:47:00): Negative [No pathological signal found]; Note_187(2020-06-09 03:26:00): Negative [No pathological signal found]; Note_188(2020-06-09 04:41:00): Negative [No pathological signal found]; Note_189(2020-06-09 05:00:00): Negative [No pathological signal found]; Note_190(2020-06-09 08:23:00): Negative [No pathological signal found]; Note_191(2020-06-09 11:56:00): Negative [No pathological signal found]; Note_192(2020-06-09 13:00:00): Negative [No pathological signal found]; Note_193(2020-06-09 22:52:00): Negative [No pathological signal found]; Note_194(2020-06-10 05:00:00): Negative [No pathological signal found]; Note_195(2020-06-10 05:00:00): Negative [No pathological signal found]; Note_196(2020-06-10 05:00:00): Negative [No pathological signal found]; Note_197(2020-06-10 17:51:00): Negative [No pathological signal found]; Note_198(2020-06-10 18:36:00): Negative [No pathological signal found]; Note_199(2020-06-10 20:29:00): Negative [No pathological signal found]; Note_200(2020-06-11 17:51:00): Negative [No pathological signal found]; Note_201(2020-06-12 03:32:00): Negative [No pathological signal found]; Note_202(2020-06-12 03:32:00): Negative [No pathological signal found]; Note_203(2020-06-12 19:03:00): Negative [No pathological signal found]; Note_204(2020-06-12 23:28:00): Negative [No pathological signal found]; Note_205(2020-06-13 19:13:00): Negative [No pathological signal found]; Note_206(2020-06-13 22:37:00): Negative [No pathological signal found]; Note_207(2020-06-14 05:00:00): Negative [No pathological signal found]; Note_208(2020-06-14 05:00:00): Negative [No pathological signal found]; Note_209(2020-06-14 05:00:00): Negative [No pathological signal found]; Note_210(2020-06-14 05:00:00): Negative [No pathological signal found]; Note_211(2020-06-14 23:04:00): Negative [No pathological signal found]; Note_212(2020-06-14 23:50:00): Negative [No pathological signal found]; Note_213(2020-06-15 00:07:00): Negative [No pathological signal found]; Note_214(2020-06-15 02:15:00): Negative [No pathological signal found]; Note_215(2020-06-15 12:40:00): Negative [No pathological signal found]; Note_216(2020-06-15 18:19:00): Negative [No pathological signal found]; Note_217(2020-06-15 23:24:00): Negative [No pathological signal found]; Note_218(2020-06-16 00:40:00): Negative [No pathological signal found]; Note_219(2020-06-16 04:59:00): Negative [No pathological signal found]; Note_220(2020-06-16 05:00:00): Negative [No pathological signal found]; Note_221(2020-06-16 05:00:00): Negative [No pathological signal found]; Note_222(2020-06-16 21:44:00): Negative [No pathological signal found]; Note_223(2020-06-16 23:47:00): Negative [No pathological signal found]; Note_224(2020-06-17 04:59:00): Negative [No pathological signal found]; Note_225(2020-06-17 05:00:00): Negative [No pathological signal found]; Note_226(2020-06-17 20:44:00): Negative [No pathological signal found]; Note_227(2020-06-17 22:11:00): Negative [No pathological signal found]; Note_228(2020-06-18 05:00:00): Negative [No pathological signal found]; Note_229(2020-06-18 05:00:00): Negative [No pathological signal found]; Note_230(2020-06-18 05:00:00): Negative [No pathological signal found]; Note_231(2020-06-18 19:19:00): Negative [No pathological signal found]; Note_232(2020-06-18 23:50:00): Negative [No pathological signal found]; Note_233(2020-06-19 01:01:00): Negative [No pathological signal found]; Note_234(2020-06-19 05:00:00): Negative [No pathological signal found]; Note_235(2020-06-19 05:00:00): Negative [No pathological signal found]; Note_236(2020-06-19 21:45:00): Negative [No pathological signal found]; Note_237(2020-06-20 00:16:00): Negative [No pathological signal found]; Note_238(2020-06-21 05:00:00): Negative [No pathological signal found]; Note_239(2022-08-24 15:43:00): Negative [No pathological signal found]. LLM aggregated: Negative. Keyword: Negative. Final: Negative.",
+  "lab_decision": "secondary_check",
+  "time_taken_s": 836.8,
+  "trace": {
+    "grid": "R203024071",
+    "steps": [
+      {
+        "agent": "DataGatherer",
+        "summary": "PatientDossier for R203024071\n  Labs: 2 entries\n  Notes: 239 notes\n  TTG decision: secondary_check\n  Keyword decision: Negative\n  Relevant notes for LLM: 239"
+      },
+      {
+        "agent": "SignalExtractor",
+        "num_notes": 239,
+        "num_signals": 239,
+        "signals": [
+          {
+            "note_label": "Note_1",
+            "note_date": "2008-02-27 21:45:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_2",
+            "note_date": "2009-09-02 23:47:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_3",
+            "note_date": "2009-09-14 05:00:00",
+            "note_type": "PATH",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_4",
+            "note_date": "2009-09-14 05:01:00",
+            "note_type": "OPERATIVE REPORT",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_5",
+            "note_date": "2009-09-20 04:47:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_6",
+            "note_date": "2009-09-21 19:38:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_7",
+            "note_date": "2009-09-21 19:38:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_8",
+            "note_date": "2009-09-22 16:33:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_9",
+            "note_date": "2009-09-22 19:00:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_10",
+            "note_date": "2009-09-22 19:48:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_11",
+            "note_date": "2009-09-24 05:01:00",
+            "note_type": "OPERATIVE REPORT",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_12",
+            "note_date": "2009-09-24 05:01:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_13",
+            "note_date": "2009-09-25 01:00:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_14",
+            "note_date": "2009-09-25 04:18:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_15",
+            "note_date": "2009-09-25 11:16:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_16",
+            "note_date": "2009-09-26 04:49:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_17",
+            "note_date": "2009-09-26 08:54:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_18",
+            "note_date": "2009-09-26 12:02:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_19",
+            "note_date": "2009-09-26 13:04:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_20",
+            "note_date": "2009-09-26 17:14:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_21",
+            "note_date": "2009-09-26 20:55:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_22",
+            "note_date": "2009-09-27 01:14:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_23",
+            "note_date": "2009-09-27 05:47:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_24",
+            "note_date": "2009-09-27 09:36:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_25",
+            "note_date": "2009-09-27 12:56:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_26",
+            "note_date": "2009-09-27 17:16:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_27",
+            "note_date": "2009-09-27 20:19:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_28",
+            "note_date": "2009-09-28 00:59:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_29",
+            "note_date": "2009-09-28 04:34:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_30",
+            "note_date": "2009-09-28 08:28:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_31",
+            "note_date": "2009-09-28 13:25:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_32",
+            "note_date": "2009-09-28 16:55:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_33",
+            "note_date": "2009-09-28 17:59:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_34",
+            "note_date": "2009-09-28 21:05:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_35",
+            "note_date": "2009-09-29 00:25:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_36",
+            "note_date": "2009-09-29 01:13:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_37",
+            "note_date": "2009-09-29 05:01:00",
+            "note_type": "OPERATIVE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_38",
+            "note_date": "2009-09-29 12:39:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_39",
+            "note_date": "2009-09-29 16:57:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_40",
+            "note_date": "2009-09-30 00:50:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_41",
+            "note_date": "2009-09-30 01:54:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_42",
+            "note_date": "2009-09-30 04:53:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_43",
+            "note_date": "2009-09-30 05:01:00",
+            "note_type": "OPERATIVE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_44",
+            "note_date": "2009-09-30 09:26:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_45",
+            "note_date": "2009-09-30 10:43:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_46",
+            "note_date": "2009-09-30 19:21:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_47",
+            "note_date": "2009-10-01 06:24:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_48",
+            "note_date": "2009-10-01 09:09:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_49",
+            "note_date": "2009-10-01 13:12:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_50",
+            "note_date": "2009-10-01 17:00:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_51",
+            "note_date": "2009-10-01 20:54:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_52",
+            "note_date": "2009-10-02 00:30:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_53",
+            "note_date": "2009-10-02 04:55:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_54",
+            "note_date": "2009-10-02 09:00:00",
+            "note_type": "RESPIRATORY CARE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_55",
+            "note_date": "2009-10-05 14:32:00",
+            "note_type": "DISCHARGE LETTER",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_56",
+            "note_date": "2009-10-05 14:33:00",
+            "note_type": "DISCHARGE INSTRUCTIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_57",
+            "note_date": "2009-10-05 20:34:00",
+            "note_type": "DISCHARGE SUMMARY",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_58",
+            "note_date": "2009-10-05 20:58:00",
+            "note_type": "KNOWN SIGNIFICANT MEDICAL DIAGNOSES AND CONDITIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_59",
+            "note_date": "2009-10-08 05:01:00",
+            "note_type": "OPERATIVE REPORT",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_60",
+            "note_date": "2009-10-08 12:57:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_61",
+            "note_date": "2009-10-09 14:34:00",
+            "note_type": "DISCHARGE LETTER",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_62",
+            "note_date": "2009-10-09 14:34:00",
+            "note_type": "DISCHARGE INSTRUCTIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_63",
+            "note_date": "2009-10-13 17:02:00",
+            "note_type": "OPERATIVE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_64",
+            "note_date": "2009-10-13 22:08:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_65",
+            "note_date": "2009-12-14 06:01:00",
+            "note_type": "OPERATIVE REPORT",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_66",
+            "note_date": "2010-02-22 06:00:00",
+            "note_type": "PATH",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_67",
+            "note_date": "2010-02-22 06:01:00",
+            "note_type": "OPERATIVE REPORT",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_68",
+            "note_date": "2010-02-25 19:17:00",
+            "note_type": "DISCHARGE LETTER",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_69",
+            "note_date": "2010-02-25 19:17:00",
+            "note_type": "DISCHARGE INSTRUCTIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_70",
+            "note_date": "2010-03-30 13:46:00",
+            "note_type": "OPERATIVE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_71",
+            "note_date": "2010-03-30 13:54:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_72",
+            "note_date": "2010-07-06 14:24:00",
+            "note_type": "OPERATIVE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_73",
+            "note_date": "2010-07-06 14:44:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_74",
+            "note_date": "2010-09-01 22:29:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_75",
+            "note_date": "2010-09-05 15:59:00",
+            "note_type": "OPERATIVE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_76",
+            "note_date": "2011-05-17 16:21:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_77",
+            "note_date": "2011-05-17 16:49:00",
+            "note_type": "OPERATIVE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_78",
+            "note_date": "2011-07-13 05:00:00",
+            "note_type": "PATH",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_79",
+            "note_date": "2011-07-13 05:01:00",
+            "note_type": "OPERATIVE REPORT",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_80",
+            "note_date": "2011-07-13 12:20:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_81",
+            "note_date": "2011-07-18 18:29:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_82",
+            "note_date": "2013-01-16 19:11:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_83",
+            "note_date": "2013-04-22 21:09:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_84",
+            "note_date": "2013-04-28 19:00:00",
+            "note_type": "OPERATIVE REPORT",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_85",
+            "note_date": "2014-11-04 20:03:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_86",
+            "note_date": "2014-11-25 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_87",
+            "note_date": "2014-11-25 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_88",
+            "note_date": "2014-11-25 20:50:00",
+            "note_type": "NURSING NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_89",
+            "note_date": "2014-11-25 21:28:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_90",
+            "note_date": "2014-11-26 00:30:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_91",
+            "note_date": "2014-11-26 06:01:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_92",
+            "note_date": "2014-11-26 17:02:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_93",
+            "note_date": "2014-11-26 18:24:00",
+            "note_type": "IMMUNIZATIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_94",
+            "note_date": "2014-11-26 18:24:00",
+            "note_type": "IMMUNIZATIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_95",
+            "note_date": "2014-11-26 20:18:00",
+            "note_type": "CONSULT REQUEST",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_96",
+            "note_date": "2014-11-27 06:01:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_97",
+            "note_date": "2014-11-28 06:01:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_98",
+            "note_date": "2014-11-29 06:01:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_99",
+            "note_date": "2014-11-30 18:40:00",
+            "note_type": "DISCHARGE INSTRUCTIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_100",
+            "note_date": "2014-11-30 18:40:00",
+            "note_type": "DISCHARGE LETTER",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_101",
+            "note_date": "2014-11-30 20:49:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_102",
+            "note_date": "2014-11-30 22:02:00",
+            "note_type": "DISCHARGE SUMMARY",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_103",
+            "note_date": "2014-12-02 21:21:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_104",
+            "note_date": "2014-12-02 23:20:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_105",
+            "note_date": "2014-12-04 21:22:00",
+            "note_type": "ADMIN",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_106",
+            "note_date": "2014-12-11 14:00:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_107",
+            "note_date": "2014-12-11 15:30:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_108",
+            "note_date": "2014-12-14 06:01:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_109",
+            "note_date": "2014-12-14 06:01:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_110",
+            "note_date": "2014-12-14 14:45:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_111",
+            "note_date": "2014-12-16 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_112",
+            "note_date": "2014-12-16 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_113",
+            "note_date": "2014-12-16 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_114",
+            "note_date": "2014-12-16 22:06:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_115",
+            "note_date": "2014-12-17 14:11:00",
+            "note_type": "CONSULT REQUEST",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_116",
+            "note_date": "2014-12-17 18:03:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_117",
+            "note_date": "2014-12-18 06:01:00",
+            "note_type": "DISCHARGE SUMMARY",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_118",
+            "note_date": "2014-12-22 06:01:00",
+            "note_type": "OPERATIVE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_119",
+            "note_date": "2014-12-24 06:01:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_120",
+            "note_date": "2014-12-24 06:01:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_121",
+            "note_date": "2014-12-25 00:30:00",
+            "note_type": "OPERATIVE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_122",
+            "note_date": "2014-12-25 04:00:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_123",
+            "note_date": "2014-12-25 22:03:00",
+            "note_type": "REHAB",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_124",
+            "note_date": "2014-12-25 22:10:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_125",
+            "note_date": "2014-12-26 04:01:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_126",
+            "note_date": "2014-12-28 13:21:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_127",
+            "note_date": "2014-12-29 19:19:00",
+            "note_type": "REHAB",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_128",
+            "note_date": "2015-01-03 14:41:00",
+            "note_type": "DISCHARGE INSTRUCTIONS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_129",
+            "note_date": "2015-01-03 14:41:00",
+            "note_type": "DISCHARGE LETTER",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_130",
+            "note_date": "2015-01-12 17:41:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_131",
+            "note_date": "2015-02-02 15:29:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_132",
+            "note_date": "2015-02-02 15:29:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_133",
+            "note_date": "2015-02-02 15:29:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_134",
+            "note_date": "2015-02-02 15:29:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_135",
+            "note_date": "2015-02-02 15:40:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_136",
+            "note_date": "2015-02-02 16:07:00",
+            "note_type": "CODED PROBLEMS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_137",
+            "note_date": "2015-02-02 16:07:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_138",
+            "note_date": "2015-05-19 16:18:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_139",
+            "note_date": "2015-06-01 15:00:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_140",
+            "note_date": "2015-06-01 15:21:00",
+            "note_type": "CODED PROBLEMS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_141",
+            "note_date": "2015-06-01 15:21:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_142",
+            "note_date": "2015-07-06 17:01:00",
+            "note_type": "CODED PROBLEMS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_143",
+            "note_date": "2015-07-06 17:01:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_144",
+            "note_date": "2015-07-12 18:26:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_145",
+            "note_date": "2015-07-12 18:26:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_146",
+            "note_date": "2015-07-12 18:26:00",
+            "note_type": "DISCHARGE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_147",
+            "note_date": "2015-07-12 18:26:00",
+            "note_type": "NURSING NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_148",
+            "note_date": "2015-07-12 18:45:00",
+            "note_type": "DISCHARGE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_149",
+            "note_date": "2015-07-12 18:45:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "The examined duodenum was normal."
+            ]
+          },
+          {
+            "note_label": "Note_150",
+            "note_date": "2015-09-23 15:38:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_151",
+            "note_date": "2015-09-28 15:30:00",
+            "note_type": "CODED PROBLEMS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_152",
+            "note_date": "2015-09-28 15:30:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_153",
+            "note_date": "2015-09-28 15:40:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_154",
+            "note_date": "2016-02-07 16:15:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_155",
+            "note_date": "2016-02-07 16:19:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_156",
+            "note_date": "2016-02-07 16:19:00",
+            "note_type": "CODED PROBLEMS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_157",
+            "note_date": "2016-03-23 17:58:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_158",
+            "note_date": "2016-03-29 13:30:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_159",
+            "note_date": "2016-03-30 14:48:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_160",
+            "note_date": "2016-03-30 17:11:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_161",
+            "note_date": "2016-04-04 16:44:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_162",
+            "note_date": "2016-05-01 18:04:00",
+            "note_type": "NURSING NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_163",
+            "note_date": "2016-05-01 18:04:00",
+            "note_type": "DISCHARGE NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_164",
+            "note_date": "2016-05-25 16:21:00",
+            "note_type": "CODED PROBLEMS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_165",
+            "note_date": "2016-05-25 16:21:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_166",
+            "note_date": "2016-05-25 16:40:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_167",
+            "note_date": "2016-10-09 13:30:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_168",
+            "note_date": "2016-10-09 13:30:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_169",
+            "note_date": "2016-10-24 18:08:00",
+            "note_type": "CODED PROBLEMS",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_170",
+            "note_date": "2016-10-24 18:08:00",
+            "note_type": "GENERAL INFORMATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_171",
+            "note_date": "2016-10-24 18:20:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_172",
+            "note_date": "2017-05-23 18:45:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_173",
+            "note_date": "2017-08-14 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_174",
+            "note_date": "2017-08-16 10:39:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_175",
+            "note_date": "2017-08-16 19:22:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_176",
+            "note_date": "2017-08-17 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_177",
+            "note_date": "2017-08-17 20:20:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_178",
+            "note_date": "2017-10-09 19:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_179",
+            "note_date": "2019-08-04 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_180",
+            "note_date": "2019-08-04 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_181",
+            "note_date": "2019-08-04 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_182",
+            "note_date": "2019-08-04 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_183",
+            "note_date": "2019-08-04 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_184",
+            "note_date": "2019-08-04 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_185",
+            "note_date": "2019-08-04 18:01:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_186",
+            "note_date": "2019-08-04 21:47:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_187",
+            "note_date": "2020-06-09 03:26:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_188",
+            "note_date": "2020-06-09 04:41:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_189",
+            "note_date": "2020-06-09 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_190",
+            "note_date": "2020-06-09 08:23:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_191",
+            "note_date": "2020-06-09 11:56:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_192",
+            "note_date": "2020-06-09 13:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_193",
+            "note_date": "2020-06-09 22:52:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_194",
+            "note_date": "2020-06-10 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_195",
+            "note_date": "2020-06-10 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_196",
+            "note_date": "2020-06-10 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_197",
+            "note_date": "2020-06-10 17:51:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_198",
+            "note_date": "2020-06-10 18:36:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_199",
+            "note_date": "2020-06-10 20:29:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_200",
+            "note_date": "2020-06-11 17:51:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_201",
+            "note_date": "2020-06-12 03:32:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_202",
+            "note_date": "2020-06-12 03:32:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_203",
+            "note_date": "2020-06-12 19:03:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_204",
+            "note_date": "2020-06-12 23:28:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_205",
+            "note_date": "2020-06-13 19:13:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_206",
+            "note_date": "2020-06-13 22:37:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_207",
+            "note_date": "2020-06-14 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_208",
+            "note_date": "2020-06-14 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_209",
+            "note_date": "2020-06-14 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_210",
+            "note_date": "2020-06-14 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_211",
+            "note_date": "2020-06-14 23:04:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_212",
+            "note_date": "2020-06-14 23:50:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_213",
+            "note_date": "2020-06-15 00:07:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_214",
+            "note_date": "2020-06-15 02:15:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_215",
+            "note_date": "2020-06-15 12:40:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_216",
+            "note_date": "2020-06-15 18:19:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_217",
+            "note_date": "2020-06-15 23:24:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_218",
+            "note_date": "2020-06-16 00:40:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_219",
+            "note_date": "2020-06-16 04:59:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_220",
+            "note_date": "2020-06-16 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_221",
+            "note_date": "2020-06-16 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_222",
+            "note_date": "2020-06-16 21:44:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_223",
+            "note_date": "2020-06-16 23:47:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_224",
+            "note_date": "2020-06-17 04:59:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_225",
+            "note_date": "2020-06-17 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_226",
+            "note_date": "2020-06-17 20:44:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_227",
+            "note_date": "2020-06-17 22:11:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_228",
+            "note_date": "2020-06-18 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_229",
+            "note_date": "2020-06-18 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_230",
+            "note_date": "2020-06-18 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_231",
+            "note_date": "2020-06-18 19:19:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_232",
+            "note_date": "2020-06-18 23:50:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_233",
+            "note_date": "2020-06-19 01:01:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_234",
+            "note_date": "2020-06-19 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_235",
+            "note_date": "2020-06-19 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_236",
+            "note_date": "2020-06-19 21:45:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_237",
+            "note_date": "2020-06-20 00:16:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_238",
+            "note_date": "2020-06-21 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_239",
+            "note_date": "2022-08-24 15:43:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          }
+        ]
+      },
+      {
+        "agent": "Critic",
+        "round": 1,
+        "num_issues": 0,
+        "needs_re_extraction": false,
+        "issues": []
+      },
+      {
+        "agent": "Adjudicator",
+        "diagnosis": "Negative",
+        "confidence": 0.95,
+        "decision_path": "Per-note: Note_1(2008-02-27 21:45:00): Negative [No pathological signal found]; Note_2(2009-09-02 23:47:00): Negative [No pathological signal found]; Note_3(2009-09-14 05:00:00): Negative [No pathological signal found]; Note_4(2009-09-14 05:01:00): Negative [No pathological signal found]; Note_5(2009-09-20 04:47:00): Negative [No pathological signal found]; Note_6(2009-09-21 19:38:00): Negative [No pathological signal found]; Note_7(2009-09-21 19:38:00): Negative [No pathological signal found]; Note_8(2009-09-22 16:33:00): Negative [No pathological signal found]; Note_9(2009-09-22 19:00:00): Negative [No pathological signal found]; Note_10(2009-09-22 19:48:00): Negative [No pathological signal found]; Note_11(2009-09-24 05:01:00): Negative [No pathological signal found]; Note_12(2009-09-24 05:01:00): Negative [No pathological signal found]; Note_13(2009-09-25 01:00:00): Negative [No pathological signal found]; Note_14(2009-09-25 04:18:00): Negative [No pathological signal found]; Note_15(2009-09-25 11:16:00): Negative [No pathological signal found]; Note_16(2009-09-26 04:49:00): Negative [No pathological signal found]; Note_17(2009-09-26 08:54:00): Negative [No pathological signal found]; Note_18(2009-09-26 12:02:00): Negative [No pathological signal found]; Note_19(2009-09-26 13:04:00): Negative [No pathological signal found]; Note_20(2009-09-26 17:14:00): Negative [No pathological signal found]; Note_21(2009-09-26 20:55:00): Negative [No pathological signal found]; Note_22(2009-09-27 01:14:00): Negative [No pathological signal found]; Note_23(2009-09-27 05:47:00): Negative [No pathological signal found]; Note_24(2009-09-27 09:36:00): Negative [No pathological signal found]; Note_25(2009-09-27 12:56:00): Negative [No pathological signal found]; Note_26(2009-09-27 17:16:00): Negative [No pathological signal found]; Note_27(2009-09-27 20:19:00): Negative [No pathological signal found]; Note_28(2009-09-28 00:59:00): Negative [No pathological signal found]; Note_29(2009-09-28 04:34:00): Negative [No pathological signal found]; Note_30(2009-09-28 08:28:00): Negative [No pathological signal found]; Note_31(2009-09-28 13:25:00): Negative [No pathological signal found]; Note_32(2009-09-28 16:55:00): Negative [No pathological signal found]; Note_33(2009-09-28 17:59:00): Negative [No pathological signal found]; Note_34(2009-09-28 21:05:00): Negative [No pathological signal found]; Note_35(2009-09-29 00:25:00): Negative [No pathological signal found]; Note_36(2009-09-29 01:13:00): Negative [No pathological signal found]; Note_37(2009-09-29 05:01:00): Negative [No pathological signal found]; Note_38(2009-09-29 12:39:00): Negative [No pathological signal found]; Note_39(2009-09-29 16:57:00): Negative [No pathological signal found]; Note_40(2009-09-30 00:50:00): Negative [No pathological signal found]; Note_41(2009-09-30 01:54:00): Negative [No pathological signal found]; Note_42(2009-09-30 04:53:00): Negative [No pathological signal found]; Note_43(2009-09-30 05:01:00): Negative [No pathological signal found]; Note_44(2009-09-30 09:26:00): Negative [No pathological signal found]; Note_45(2009-09-30 10:43:00): Negative [No pathological signal found]; Note_46(2009-09-30 19:21:00): Negative [No pathological signal found]; Note_47(2009-10-01 06:24:00): Negative [No pathological signal found]; Note_48(2009-10-01 09:09:00): Negative [No pathological signal found]; Note_49(2009-10-01 13:12:00): Negative [No pathological signal found]; Note_50(2009-10-01 17:00:00): Negative [No pathological signal found]; Note_51(2009-10-01 20:54:00): Negative [No pathological signal found]; Note_52(2009-10-02 00:30:00): Negative [No pathological signal found]; Note_53(2009-10-02 04:55:00): Negative [No pathological signal found]; Note_54(2009-10-02 09:00:00): Negative [No pathological signal found]; Note_55(2009-10-05 14:32:00): Negative [No pathological signal found]; Note_56(2009-10-05 14:33:00): Negative [No pathological signal found]; Note_57(2009-10-05 20:34:00): Negative [No pathological signal found]; Note_58(2009-10-05 20:58:00): Negative [No pathological signal found]; Note_59(2009-10-08 05:01:00): Negative [No pathological signal found]; Note_60(2009-10-08 12:57:00): Negative [No pathological signal found]; Note_61(2009-10-09 14:34:00): Negative [No pathological signal found]; Note_62(2009-10-09 14:34:00): Negative [No pathological signal found]; Note_63(2009-10-13 17:02:00): Negative [No pathological signal found]; Note_64(2009-10-13 22:08:00): Negative [No pathological signal found]; Note_65(2009-12-14 06:01:00): Negative [No pathological signal found]; Note_66(2010-02-22 06:00:00): Negative [No pathological signal found]; Note_67(2010-02-22 06:01:00): Negative [No pathological signal found]; Note_68(2010-02-25 19:17:00): Negative [No pathological signal found]; Note_69(2010-02-25 19:17:00): Negative [No pathological signal found]; Note_70(2010-03-30 13:46:00): Negative [No pathological signal found]; Note_71(2010-03-30 13:54:00): Negative [No pathological signal found]; Note_72(2010-07-06 14:24:00): Negative [No pathological signal found]; Note_73(2010-07-06 14:44:00): Negative [No pathological signal found]; Note_74(2010-09-01 22:29:00): Negative [No pathological signal found]; Note_75(2010-09-05 15:59:00): Negative [No pathological signal found]; Note_76(2011-05-17 16:21:00): Negative [No pathological signal found]; Note_77(2011-05-17 16:49:00): Negative [No pathological signal found]; Note_78(2011-07-13 05:00:00): Negative [No pathological signal found]; Note_79(2011-07-13 05:01:00): Negative [No pathological signal found]; Note_80(2011-07-13 12:20:00): Negative [No pathological signal found]; Note_81(2011-07-18 18:29:00): Negative [No pathological signal found]; Note_82(2013-01-16 19:11:00): Negative [No pathological signal found]; Note_83(2013-04-22 21:09:00): Negative [No pathological signal found]; Note_84(2013-04-28 19:00:00): Negative [No pathological signal found]; Note_85(2014-11-04 20:03:00): Negative [No pathological signal found]; Note_86(2014-11-25 06:00:00): Negative [No pathological signal found]; Note_87(2014-11-25 06:00:00): Negative [No pathological signal found]; Note_88(2014-11-25 20:50:00): Negative [No pathological signal found]; Note_89(2014-11-25 21:28:00): Negative [No pathological signal found]; Note_90(2014-11-26 00:30:00): Negative [No pathological signal found]; Note_91(2014-11-26 06:01:00): Negative [No pathological signal found]; Note_92(2014-11-26 17:02:00): Negative [No pathological signal found]; Note_93(2014-11-26 18:24:00): Negative [No pathological signal found]; Note_94(2014-11-26 18:24:00): Negative [No pathological signal found]; Note_95(2014-11-26 20:18:00): Negative [No pathological signal found]; Note_96(2014-11-27 06:01:00): Negative [No pathological signal found]; Note_97(2014-11-28 06:01:00): Negative [No pathological signal found]; Note_98(2014-11-29 06:01:00): Negative [No pathological signal found]; Note_99(2014-11-30 18:40:00): Negative [No pathological signal found]; Note_100(2014-11-30 18:40:00): Negative [No pathological signal found]; Note_101(2014-11-30 20:49:00): Negative [No pathological signal found]; Note_102(2014-11-30 22:02:00): Negative [No pathological signal found]; Note_103(2014-12-02 21:21:00): Negative [No pathological signal found]; Note_104(2014-12-02 23:20:00): Negative [No pathological signal found]; Note_105(2014-12-04 21:22:00): Negative [No pathological signal found]; Note_106(2014-12-11 14:00:00): Negative [No pathological signal found]; Note_107(2014-12-11 15:30:00): Negative [No pathological signal found]; Note_108(2014-12-14 06:01:00): Negative [No pathological signal found]; Note_109(2014-12-14 06:01:00): Negative [No pathological signal found]; Note_110(2014-12-14 14:45:00): Negative [No pathological signal found]; Note_111(2014-12-16 06:00:00): Negative [No pathological signal found]; Note_112(2014-12-16 06:00:00): Negative [No pathological signal found]; Note_113(2014-12-16 06:00:00): Negative [No pathological signal found]; Note_114(2014-12-16 22:06:00): Negative [No pathological signal found]; Note_115(2014-12-17 14:11:00): Negative [No pathological signal found]; Note_116(2014-12-17 18:03:00): Negative [No pathological signal found]; Note_117(2014-12-18 06:01:00): Negative [No pathological signal found]; Note_118(2014-12-22 06:01:00): Negative [No pathological signal found]; Note_119(2014-12-24 06:01:00): Negative [No pathological signal found]; Note_120(2014-12-24 06:01:00): Negative [No pathological signal found]; Note_121(2014-12-25 00:30:00): Negative [No pathological signal found]; Note_122(2014-12-25 04:00:00): Negative [No pathological signal found]; Note_123(2014-12-25 22:03:00): Negative [No pathological signal found]; Note_124(2014-12-25 22:10:00): Negative [No pathological signal found]; Note_125(2014-12-26 04:01:00): Negative [No pathological signal found]; Note_126(2014-12-28 13:21:00): Negative [No pathological signal found]; Note_127(2014-12-29 19:19:00): Negative [No pathological signal found]; Note_128(2015-01-03 14:41:00): Negative [No pathological signal found]; Note_129(2015-01-03 14:41:00): Negative [No pathological signal found]; Note_130(2015-01-12 17:41:00): Negative [No pathological signal found]; Note_131(2015-02-02 15:29:00): Negative [No pathological signal found]; Note_132(2015-02-02 15:29:00): Negative [No pathological signal found]; Note_133(2015-02-02 15:29:00): Negative [No pathological signal found]; Note_134(2015-02-02 15:29:00): Negative [No pathological signal found]; Note_135(2015-02-02 15:40:00): Negative [No pathological signal found]; Note_136(2015-02-02 16:07:00): Negative [No pathological signal found]; Note_137(2015-02-02 16:07:00): Negative [No pathological signal found]; Note_138(2015-05-19 16:18:00): Negative [No pathological signal found]; Note_139(2015-06-01 15:00:00): Negative [No pathological signal found]; Note_140(2015-06-01 15:21:00): Negative [No pathological signal found]; Note_141(2015-06-01 15:21:00): Negative [No pathological signal found]; Note_142(2015-07-06 17:01:00): Negative [No pathological signal found]; Note_143(2015-07-06 17:01:00): Negative [No pathological signal found]; Note_144(2015-07-12 18:26:00): Negative [No pathological signal found]; Note_145(2015-07-12 18:26:00): Negative [No pathological signal found]; Note_146(2015-07-12 18:26:00): Negative [No pathological signal found]; Note_147(2015-07-12 18:26:00): Negative [No pathological signal found]; Note_148(2015-07-12 18:45:00): Negative [No pathological signal found]; Note_149(2015-07-12 18:45:00): Negative [No pathological signal found]; Note_150(2015-09-23 15:38:00): Negative [No pathological signal found]; Note_151(2015-09-28 15:30:00): Negative [No pathological signal found]; Note_152(2015-09-28 15:30:00): Negative [No pathological signal found]; Note_153(2015-09-28 15:40:00): Negative [No pathological signal found]; Note_154(2016-02-07 16:15:00): Negative [No pathological signal found]; Note_155(2016-02-07 16:19:00): Negative [No pathological signal found]; Note_156(2016-02-07 16:19:00): Negative [No pathological signal found]; Note_157(2016-03-23 17:58:00): Negative [No pathological signal found]; Note_158(2016-03-29 13:30:00): Negative [No pathological signal found]; Note_159(2016-03-30 14:48:00): Negative [No pathological signal found]; Note_160(2016-03-30 17:11:00): Negative [No pathological signal found]; Note_161(2016-04-04 16:44:00): Negative [No pathological signal found]; Note_162(2016-05-01 18:04:00): Negative [No pathological signal found]; Note_163(2016-05-01 18:04:00): Negative [No pathological signal found]; Note_164(2016-05-25 16:21:00): Negative [No pathological signal found]; Note_165(2016-05-25 16:21:00): Negative [No pathological signal found]; Note_166(2016-05-25 16:40:00): Negative [No pathological signal found]; Note_167(2016-10-09 13:30:00): Negative [No pathological signal found]; Note_168(2016-10-09 13:30:00): Negative [No pathological signal found]; Note_169(2016-10-24 18:08:00): Negative [No pathological signal found]; Note_170(2016-10-24 18:08:00): Negative [No pathological signal found]; Note_171(2016-10-24 18:20:00): Negative [No pathological signal found]; Note_172(2017-05-23 18:45:00): Negative [No pathological signal found]; Note_173(2017-08-14 05:00:00): Negative [No pathological signal found]; Note_174(2017-08-16 10:39:00): Negative [No pathological signal found]; Note_175(2017-08-16 19:22:00): Negative [No pathological signal found]; Note_176(2017-08-17 05:00:00): Negative [No pathological signal found]; Note_177(2017-08-17 20:20:00): Negative [No pathological signal found]; Note_178(2017-10-09 19:00:00): Negative [No pathological signal found]; Note_179(2019-08-04 05:00:00): Negative [No pathological signal found]; Note_180(2019-08-04 05:00:00): Negative [No pathological signal found]; Note_181(2019-08-04 05:00:00): Negative [No pathological signal found]; Note_182(2019-08-04 05:00:00): Negative [No pathological signal found]; Note_183(2019-08-04 05:00:00): Negative [No pathological signal found]; Note_184(2019-08-04 05:00:00): Negative [No pathological signal found]; Note_185(2019-08-04 18:01:00): Negative [No pathological signal found]; Note_186(2019-08-04 21:47:00): Negative [No pathological signal found]; Note_187(2020-06-09 03:26:00): Negative [No pathological signal found]; Note_188(2020-06-09 04:41:00): Negative [No pathological signal found]; Note_189(2020-06-09 05:00:00): Negative [No pathological signal found]; Note_190(2020-06-09 08:23:00): Negative [No pathological signal found]; Note_191(2020-06-09 11:56:00): Negative [No pathological signal found]; Note_192(2020-06-09 13:00:00): Negative [No pathological signal found]; Note_193(2020-06-09 22:52:00): Negative [No pathological signal found]; Note_194(2020-06-10 05:00:00): Negative [No pathological signal found]; Note_195(2020-06-10 05:00:00): Negative [No pathological signal found]; Note_196(2020-06-10 05:00:00): Negative [No pathological signal found]; Note_197(2020-06-10 17:51:00): Negative [No pathological signal found]; Note_198(2020-06-10 18:36:00): Negative [No pathological signal found]; Note_199(2020-06-10 20:29:00): Negative [No pathological signal found]; Note_200(2020-06-11 17:51:00): Negative [No pathological signal found]; Note_201(2020-06-12 03:32:00): Negative [No pathological signal found]; Note_202(2020-06-12 03:32:00): Negative [No pathological signal found]; Note_203(2020-06-12 19:03:00): Negative [No pathological signal found]; Note_204(2020-06-12 23:28:00): Negative [No pathological signal found]; Note_205(2020-06-13 19:13:00): Negative [No pathological signal found]; Note_206(2020-06-13 22:37:00): Negative [No pathological signal found]; Note_207(2020-06-14 05:00:00): Negative [No pathological signal found]; Note_208(2020-06-14 05:00:00): Negative [No pathological signal found]; Note_209(2020-06-14 05:00:00): Negative [No pathological signal found]; Note_210(2020-06-14 05:00:00): Negative [No pathological signal found]; Note_211(2020-06-14 23:04:00): Negative [No pathological signal found]; Note_212(2020-06-14 23:50:00): Negative [No pathological signal found]; Note_213(2020-06-15 00:07:00): Negative [No pathological signal found]; Note_214(2020-06-15 02:15:00): Negative [No pathological signal found]; Note_215(2020-06-15 12:40:00): Negative [No pathological signal found]; Note_216(2020-06-15 18:19:00): Negative [No pathological signal found]; Note_217(2020-06-15 23:24:00): Negative [No pathological signal found]; Note_218(2020-06-16 00:40:00): Negative [No pathological signal found]; Note_219(2020-06-16 04:59:00): Negative [No pathological signal found]; Note_220(2020-06-16 05:00:00): Negative [No pathological signal found]; Note_221(2020-06-16 05:00:00): Negative [No pathological signal found]; Note_222(2020-06-16 21:44:00): Negative [No pathological signal found]; Note_223(2020-06-16 23:47:00): Negative [No pathological signal found]; Note_224(2020-06-17 04:59:00): Negative [No pathological signal found]; Note_225(2020-06-17 05:00:00): Negative [No pathological signal found]; Note_226(2020-06-17 20:44:00): Negative [No pathological signal found]; Note_227(2020-06-17 22:11:00): Negative [No pathological signal found]; Note_228(2020-06-18 05:00:00): Negative [No pathological signal found]; Note_229(2020-06-18 05:00:00): Negative [No pathological signal found]; Note_230(2020-06-18 05:00:00): Negative [No pathological signal found]; Note_231(2020-06-18 19:19:00): Negative [No pathological signal found]; Note_232(2020-06-18 23:50:00): Negative [No pathological signal found]; Note_233(2020-06-19 01:01:00): Negative [No pathological signal found]; Note_234(2020-06-19 05:00:00): Negative [No pathological signal found]; Note_235(2020-06-19 05:00:00): Negative [No pathological signal found]; Note_236(2020-06-19 21:45:00): Negative [No pathological signal found]; Note_237(2020-06-20 00:16:00): Negative [No pathological signal found]; Note_238(2020-06-21 05:00:00): Negative [No pathological signal found]; Note_239(2022-08-24 15:43:00): Negative [No pathological signal found]. LLM aggregated: Negative. Keyword: Negative. Final: Negative.",
+        "note_decisions": [
+          {
+            "note": "Note_1",
+            "date": "2008-02-27 21:45:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_2",
+            "date": "2009-09-02 23:47:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_3",
+            "date": "2009-09-14 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_4",
+            "date": "2009-09-14 05:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_5",
+            "date": "2009-09-20 04:47:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_6",
+            "date": "2009-09-21 19:38:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_7",
+            "date": "2009-09-21 19:38:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_8",
+            "date": "2009-09-22 16:33:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_9",
+            "date": "2009-09-22 19:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_10",
+            "date": "2009-09-22 19:48:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_11",
+            "date": "2009-09-24 05:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_12",
+            "date": "2009-09-24 05:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_13",
+            "date": "2009-09-25 01:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_14",
+            "date": "2009-09-25 04:18:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_15",
+            "date": "2009-09-25 11:16:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_16",
+            "date": "2009-09-26 04:49:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_17",
+            "date": "2009-09-26 08:54:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_18",
+            "date": "2009-09-26 12:02:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_19",
+            "date": "2009-09-26 13:04:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_20",
+            "date": "2009-09-26 17:14:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_21",
+            "date": "2009-09-26 20:55:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_22",
+            "date": "2009-09-27 01:14:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_23",
+            "date": "2009-09-27 05:47:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_24",
+            "date": "2009-09-27 09:36:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_25",
+            "date": "2009-09-27 12:56:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_26",
+            "date": "2009-09-27 17:16:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_27",
+            "date": "2009-09-27 20:19:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_28",
+            "date": "2009-09-28 00:59:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_29",
+            "date": "2009-09-28 04:34:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_30",
+            "date": "2009-09-28 08:28:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_31",
+            "date": "2009-09-28 13:25:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_32",
+            "date": "2009-09-28 16:55:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_33",
+            "date": "2009-09-28 17:59:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_34",
+            "date": "2009-09-28 21:05:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_35",
+            "date": "2009-09-29 00:25:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_36",
+            "date": "2009-09-29 01:13:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_37",
+            "date": "2009-09-29 05:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_38",
+            "date": "2009-09-29 12:39:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_39",
+            "date": "2009-09-29 16:57:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_40",
+            "date": "2009-09-30 00:50:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_41",
+            "date": "2009-09-30 01:54:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_42",
+            "date": "2009-09-30 04:53:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_43",
+            "date": "2009-09-30 05:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_44",
+            "date": "2009-09-30 09:26:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_45",
+            "date": "2009-09-30 10:43:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_46",
+            "date": "2009-09-30 19:21:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_47",
+            "date": "2009-10-01 06:24:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_48",
+            "date": "2009-10-01 09:09:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_49",
+            "date": "2009-10-01 13:12:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_50",
+            "date": "2009-10-01 17:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_51",
+            "date": "2009-10-01 20:54:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_52",
+            "date": "2009-10-02 00:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_53",
+            "date": "2009-10-02 04:55:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_54",
+            "date": "2009-10-02 09:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_55",
+            "date": "2009-10-05 14:32:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_56",
+            "date": "2009-10-05 14:33:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_57",
+            "date": "2009-10-05 20:34:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_58",
+            "date": "2009-10-05 20:58:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_59",
+            "date": "2009-10-08 05:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_60",
+            "date": "2009-10-08 12:57:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_61",
+            "date": "2009-10-09 14:34:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_62",
+            "date": "2009-10-09 14:34:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_63",
+            "date": "2009-10-13 17:02:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_64",
+            "date": "2009-10-13 22:08:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_65",
+            "date": "2009-12-14 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_66",
+            "date": "2010-02-22 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_67",
+            "date": "2010-02-22 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_68",
+            "date": "2010-02-25 19:17:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_69",
+            "date": "2010-02-25 19:17:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_70",
+            "date": "2010-03-30 13:46:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_71",
+            "date": "2010-03-30 13:54:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_72",
+            "date": "2010-07-06 14:24:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_73",
+            "date": "2010-07-06 14:44:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_74",
+            "date": "2010-09-01 22:29:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_75",
+            "date": "2010-09-05 15:59:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_76",
+            "date": "2011-05-17 16:21:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_77",
+            "date": "2011-05-17 16:49:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_78",
+            "date": "2011-07-13 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_79",
+            "date": "2011-07-13 05:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_80",
+            "date": "2011-07-13 12:20:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_81",
+            "date": "2011-07-18 18:29:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_82",
+            "date": "2013-01-16 19:11:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_83",
+            "date": "2013-04-22 21:09:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_84",
+            "date": "2013-04-28 19:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_85",
+            "date": "2014-11-04 20:03:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_86",
+            "date": "2014-11-25 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_87",
+            "date": "2014-11-25 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_88",
+            "date": "2014-11-25 20:50:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_89",
+            "date": "2014-11-25 21:28:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_90",
+            "date": "2014-11-26 00:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_91",
+            "date": "2014-11-26 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_92",
+            "date": "2014-11-26 17:02:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_93",
+            "date": "2014-11-26 18:24:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_94",
+            "date": "2014-11-26 18:24:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_95",
+            "date": "2014-11-26 20:18:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_96",
+            "date": "2014-11-27 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_97",
+            "date": "2014-11-28 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_98",
+            "date": "2014-11-29 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_99",
+            "date": "2014-11-30 18:40:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_100",
+            "date": "2014-11-30 18:40:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_101",
+            "date": "2014-11-30 20:49:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_102",
+            "date": "2014-11-30 22:02:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_103",
+            "date": "2014-12-02 21:21:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_104",
+            "date": "2014-12-02 23:20:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_105",
+            "date": "2014-12-04 21:22:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_106",
+            "date": "2014-12-11 14:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_107",
+            "date": "2014-12-11 15:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_108",
+            "date": "2014-12-14 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_109",
+            "date": "2014-12-14 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_110",
+            "date": "2014-12-14 14:45:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_111",
+            "date": "2014-12-16 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_112",
+            "date": "2014-12-16 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_113",
+            "date": "2014-12-16 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_114",
+            "date": "2014-12-16 22:06:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_115",
+            "date": "2014-12-17 14:11:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_116",
+            "date": "2014-12-17 18:03:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_117",
+            "date": "2014-12-18 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_118",
+            "date": "2014-12-22 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_119",
+            "date": "2014-12-24 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_120",
+            "date": "2014-12-24 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_121",
+            "date": "2014-12-25 00:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_122",
+            "date": "2014-12-25 04:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_123",
+            "date": "2014-12-25 22:03:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_124",
+            "date": "2014-12-25 22:10:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_125",
+            "date": "2014-12-26 04:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_126",
+            "date": "2014-12-28 13:21:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_127",
+            "date": "2014-12-29 19:19:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_128",
+            "date": "2015-01-03 14:41:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_129",
+            "date": "2015-01-03 14:41:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_130",
+            "date": "2015-01-12 17:41:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_131",
+            "date": "2015-02-02 15:29:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_132",
+            "date": "2015-02-02 15:29:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_133",
+            "date": "2015-02-02 15:29:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_134",
+            "date": "2015-02-02 15:29:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_135",
+            "date": "2015-02-02 15:40:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_136",
+            "date": "2015-02-02 16:07:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_137",
+            "date": "2015-02-02 16:07:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_138",
+            "date": "2015-05-19 16:18:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_139",
+            "date": "2015-06-01 15:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_140",
+            "date": "2015-06-01 15:21:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_141",
+            "date": "2015-06-01 15:21:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_142",
+            "date": "2015-07-06 17:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_143",
+            "date": "2015-07-06 17:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_144",
+            "date": "2015-07-12 18:26:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_145",
+            "date": "2015-07-12 18:26:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_146",
+            "date": "2015-07-12 18:26:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_147",
+            "date": "2015-07-12 18:26:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_148",
+            "date": "2015-07-12 18:45:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_149",
+            "date": "2015-07-12 18:45:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_150",
+            "date": "2015-09-23 15:38:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_151",
+            "date": "2015-09-28 15:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_152",
+            "date": "2015-09-28 15:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_153",
+            "date": "2015-09-28 15:40:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_154",
+            "date": "2016-02-07 16:15:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_155",
+            "date": "2016-02-07 16:19:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_156",
+            "date": "2016-02-07 16:19:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_157",
+            "date": "2016-03-23 17:58:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_158",
+            "date": "2016-03-29 13:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_159",
+            "date": "2016-03-30 14:48:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_160",
+            "date": "2016-03-30 17:11:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_161",
+            "date": "2016-04-04 16:44:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_162",
+            "date": "2016-05-01 18:04:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_163",
+            "date": "2016-05-01 18:04:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_164",
+            "date": "2016-05-25 16:21:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_165",
+            "date": "2016-05-25 16:21:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_166",
+            "date": "2016-05-25 16:40:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_167",
+            "date": "2016-10-09 13:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_168",
+            "date": "2016-10-09 13:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_169",
+            "date": "2016-10-24 18:08:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_170",
+            "date": "2016-10-24 18:08:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_171",
+            "date": "2016-10-24 18:20:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_172",
+            "date": "2017-05-23 18:45:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_173",
+            "date": "2017-08-14 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_174",
+            "date": "2017-08-16 10:39:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_175",
+            "date": "2017-08-16 19:22:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_176",
+            "date": "2017-08-17 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_177",
+            "date": "2017-08-17 20:20:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_178",
+            "date": "2017-10-09 19:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_179",
+            "date": "2019-08-04 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_180",
+            "date": "2019-08-04 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_181",
+            "date": "2019-08-04 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_182",
+            "date": "2019-08-04 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_183",
+            "date": "2019-08-04 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_184",
+            "date": "2019-08-04 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_185",
+            "date": "2019-08-04 18:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_186",
+            "date": "2019-08-04 21:47:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_187",
+            "date": "2020-06-09 03:26:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_188",
+            "date": "2020-06-09 04:41:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_189",
+            "date": "2020-06-09 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_190",
+            "date": "2020-06-09 08:23:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_191",
+            "date": "2020-06-09 11:56:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_192",
+            "date": "2020-06-09 13:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_193",
+            "date": "2020-06-09 22:52:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_194",
+            "date": "2020-06-10 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_195",
+            "date": "2020-06-10 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_196",
+            "date": "2020-06-10 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_197",
+            "date": "2020-06-10 17:51:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_198",
+            "date": "2020-06-10 18:36:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_199",
+            "date": "2020-06-10 20:29:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_200",
+            "date": "2020-06-11 17:51:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_201",
+            "date": "2020-06-12 03:32:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_202",
+            "date": "2020-06-12 03:32:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_203",
+            "date": "2020-06-12 19:03:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_204",
+            "date": "2020-06-12 23:28:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_205",
+            "date": "2020-06-13 19:13:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_206",
+            "date": "2020-06-13 22:37:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_207",
+            "date": "2020-06-14 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_208",
+            "date": "2020-06-14 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_209",
+            "date": "2020-06-14 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_210",
+            "date": "2020-06-14 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_211",
+            "date": "2020-06-14 23:04:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_212",
+            "date": "2020-06-14 23:50:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_213",
+            "date": "2020-06-15 00:07:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_214",
+            "date": "2020-06-15 02:15:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_215",
+            "date": "2020-06-15 12:40:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_216",
+            "date": "2020-06-15 18:19:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_217",
+            "date": "2020-06-15 23:24:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_218",
+            "date": "2020-06-16 00:40:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_219",
+            "date": "2020-06-16 04:59:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_220",
+            "date": "2020-06-16 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_221",
+            "date": "2020-06-16 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_222",
+            "date": "2020-06-16 21:44:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_223",
+            "date": "2020-06-16 23:47:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_224",
+            "date": "2020-06-17 04:59:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_225",
+            "date": "2020-06-17 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_226",
+            "date": "2020-06-17 20:44:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_227",
+            "date": "2020-06-17 22:11:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_228",
+            "date": "2020-06-18 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_229",
+            "date": "2020-06-18 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_230",
+            "date": "2020-06-18 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_231",
+            "date": "2020-06-18 19:19:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_232",
+            "date": "2020-06-18 23:50:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_233",
+            "date": "2020-06-19 01:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_234",
+            "date": "2020-06-19 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_235",
+            "date": "2020-06-19 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_236",
+            "date": "2020-06-19 21:45:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_237",
+            "date": "2020-06-20 00:16:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_238",
+            "date": "2020-06-21 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_239",
+            "date": "2022-08-24 15:43:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_stats": {
+    "reasoning": {
+      "total_calls": 15,
+      "total_time_s": 980.5,
+      "avg_time_s": 65.4
+    },
+    "extraction": {
+      "total_calls": 129,
+      "total_time_s": 2484.0,
+      "avg_time_s": 19.3
+    }
+  }
+}

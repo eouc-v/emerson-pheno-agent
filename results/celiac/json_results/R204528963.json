@@ -1,0 +1,373 @@
+{
+  "grid": "R204528963",
+  "diagnosis": "Negative",
+  "confidence": 0.65,
+  "reasoning": "The patient received a Negative celiac disease diagnosis because the clinical documentation consistently demonstrated normal duodenal histology and explicitly excluded the condition. Pathology evaluations across multiple encounters documented \"DUODENAL MUCOSA WITH NORMAL VILLOUS ARCHITECTURE\" and showed no increased intraepithelial lymphocytes, directly triggering the negative decision rule that requires both negative IEL status and normal villous architecture. Although a TTG-IgA assay was initially positive in November 2016, all subsequent measurements in 2017, 2019, and 2022 returned negative, and providers repeatedly noted \"She does NOT have celiac disease at this time\" and \"Celiac: no evidence of celiac disease.\" With the absence of a positive Marsh grade, no external biopsy confirmation, and explicit clinical negation of both serological and histological markers, the case definitively met the criteria for a Negative outcome.",
+  "evidence": [
+    "DUODENAL MUCOSA WITH NORMAL VILLOUS ARCHITECTURE",
+    "She does NOT have celiac disease at this time.",
+    "Celiac: no evidence of celiac disease.",
+    "Celiac: no evidence of celiac disease.",
+    "Results from today show no indication of hepatorenal, thyroid, or celiac disease.",
+    "Celiac: no evidence of celiac disease.",
+    "Results from today show no indication of hepatorenal, thyroid, or celiac disease.",
+    "Celiac: no evidence of celiac disease.",
+    "Results from today show no indication of hepatorenal, thyroid, or celiac disease.",
+    "Celiac: no evidence of celiac disease."
+  ],
+  "decision_path": "Per-note: Note_1(2017-02-04 06:00:00): Negative [No pathological signal found]; Note_2(2016-11-26 14:54:00): Negative [No pathological signal found]; Note_3(2016-12-03 15:00:00): Negative [No pathological signal found]; Note_4(2017-01-25 15:04:00): Negative [No pathological signal found]; Note_5(2017-01-25 16:27:00): Negative [No pathological signal found]; Note_6(2017-02-03 15:43:00): Negative [No pathological signal found]; Note_7(2017-02-04 06:01:00): Negative [No pathological signal found]; Note_8(2017-02-04 14:41:00): Negative [No pathological signal found]; Note_9(2017-02-10 16:05:00): Negative [No pathological signal found]; Note_10(2017-04-01 14:30:00): Negative [No pathological signal found]; Note_11(2019-02-23 01:30:00): Negative [No pathological signal found]; Note_12(2019-03-05 06:00:00): Negative [No pathological signal found]; Note_13(2019-08-31 02:30:00): Negative [No pathological signal found]; Note_14(2019-09-11 05:00:00): Negative [No pathological signal found]; Note_15(2022-06-03 02:15:00): Negative [No pathological signal found]; Note_16(2022-06-03 03:06:00): Negative [No pathological signal found]; Note_17(2022-07-22 05:00:00): Negative [No pathological signal found]. LLM aggregated: Negative. Keyword: Indeterminate. Final: Negative.",
+  "lab_decision": "secondary_check",
+  "time_taken_s": 137.5,
+  "trace": {
+    "grid": "R204528963",
+    "steps": [
+      {
+        "agent": "DataGatherer",
+        "summary": "PatientDossier for R204528963\n  Labs: 7 entries\n  Notes: 170 notes\n  TTG decision: secondary_check\n  Keyword decision: Indeterminate\n  Relevant notes for LLM: 17"
+      },
+      {
+        "agent": "SignalExtractor",
+        "num_notes": 17,
+        "num_signals": 17,
+        "signals": [
+          {
+            "note_label": "Note_1",
+            "note_date": "2017-02-04 06:00:00",
+            "note_type": "PATH",
+            "iel_status": "not_found",
+            "villous_architecture": "normal",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "DUODENAL MUCOSA WITH NORMAL VILLOUS ARCHITECTURE"
+            ]
+          },
+          {
+            "note_label": "Note_2",
+            "note_date": "2016-11-26 14:54:00",
+            "note_type": "PROGRESS NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_3",
+            "note_date": "2016-12-03 15:00:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_4",
+            "note_date": "2017-01-25 15:04:00",
+            "note_type": "CONSULT REQUEST",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_5",
+            "note_date": "2017-01-25 16:27:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_6",
+            "note_date": "2017-02-03 15:43:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_7",
+            "note_date": "2017-02-04 06:01:00",
+            "note_type": "HISTORY AND PHYSICAL",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_8",
+            "note_date": "2017-02-04 14:41:00",
+            "note_type": "NOTES",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_9",
+            "note_date": "2017-02-10 16:05:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "She does NOT have celiac disease at this time."
+            ]
+          },
+          {
+            "note_label": "Note_10",
+            "note_date": "2017-04-01 14:30:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Celiac: no evidence of celiac disease."
+            ]
+          },
+          {
+            "note_label": "Note_11",
+            "note_date": "2019-02-23 01:30:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Celiac: no evidence of celiac disease.",
+              "Results from today show no indication of hepatorenal, thyroid, or celiac disease."
+            ]
+          },
+          {
+            "note_label": "Note_12",
+            "note_date": "2019-03-05 06:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Celiac: no evidence of celiac disease.",
+              "Results from today show no indication of hepatorenal, thyroid, or celiac disease."
+            ]
+          },
+          {
+            "note_label": "Note_13",
+            "note_date": "2019-08-31 02:30:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Celiac: no evidence of celiac disease.",
+              "Results from today show no indication of hepatorenal, thyroid, or celiac disease."
+            ]
+          },
+          {
+            "note_label": "Note_14",
+            "note_date": "2019-09-11 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Celiac: no evidence of celiac disease.",
+              "Results from today show no indication of hepatorenal, thyroid, or celiac disease."
+            ]
+          },
+          {
+            "note_label": "Note_15",
+            "note_date": "2022-06-03 02:15:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Obtain TFTs, lipid, celiac and urine microalbumin"
+            ]
+          },
+          {
+            "note_label": "Note_16",
+            "note_date": "2022-06-03 03:06:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_17",
+            "note_date": "2022-07-22 05:00:00",
+            "note_type": "Unknown Source",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          }
+        ]
+      },
+      {
+        "agent": "Critic",
+        "round": 1,
+        "num_issues": 0,
+        "needs_re_extraction": false,
+        "issues": []
+      },
+      {
+        "agent": "Adjudicator",
+        "diagnosis": "Negative",
+        "confidence": 0.65,
+        "decision_path": "Per-note: Note_1(2017-02-04 06:00:00): Negative [No pathological signal found]; Note_2(2016-11-26 14:54:00): Negative [No pathological signal found]; Note_3(2016-12-03 15:00:00): Negative [No pathological signal found]; Note_4(2017-01-25 15:04:00): Negative [No pathological signal found]; Note_5(2017-01-25 16:27:00): Negative [No pathological signal found]; Note_6(2017-02-03 15:43:00): Negative [No pathological signal found]; Note_7(2017-02-04 06:01:00): Negative [No pathological signal found]; Note_8(2017-02-04 14:41:00): Negative [No pathological signal found]; Note_9(2017-02-10 16:05:00): Negative [No pathological signal found]; Note_10(2017-04-01 14:30:00): Negative [No pathological signal found]; Note_11(2019-02-23 01:30:00): Negative [No pathological signal found]; Note_12(2019-03-05 06:00:00): Negative [No pathological signal found]; Note_13(2019-08-31 02:30:00): Negative [No pathological signal found]; Note_14(2019-09-11 05:00:00): Negative [No pathological signal found]; Note_15(2022-06-03 02:15:00): Negative [No pathological signal found]; Note_16(2022-06-03 03:06:00): Negative [No pathological signal found]; Note_17(2022-07-22 05:00:00): Negative [No pathological signal found]. LLM aggregated: Negative. Keyword: Indeterminate. Final: Negative.",
+        "note_decisions": [
+          {
+            "note": "Note_1",
+            "date": "2017-02-04 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_2",
+            "date": "2016-11-26 14:54:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_3",
+            "date": "2016-12-03 15:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_4",
+            "date": "2017-01-25 15:04:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_5",
+            "date": "2017-01-25 16:27:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_6",
+            "date": "2017-02-03 15:43:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_7",
+            "date": "2017-02-04 06:01:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_8",
+            "date": "2017-02-04 14:41:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_9",
+            "date": "2017-02-10 16:05:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_10",
+            "date": "2017-04-01 14:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_11",
+            "date": "2019-02-23 01:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_12",
+            "date": "2019-03-05 06:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_13",
+            "date": "2019-08-31 02:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_14",
+            "date": "2019-09-11 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_15",
+            "date": "2022-06-03 02:15:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_16",
+            "date": "2022-06-03 03:06:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_17",
+            "date": "2022-07-22 05:00:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_stats": {
+    "reasoning": {
+      "total_calls": 12,
+      "total_time_s": 2304.9,
+      "avg_time_s": 192.1
+    },
+    "extraction": {
+      "total_calls": 235,
+      "total_time_s": 5067.7,
+      "avg_time_s": 21.6
+    }
+  }
+}

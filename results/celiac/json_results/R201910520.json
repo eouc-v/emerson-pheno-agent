@@ -1,0 +1,218 @@
+{
+  "grid": "R201910520",
+  "diagnosis": "Positive",
+  "confidence": 0.85,
+  "reasoning": "The patient’s celiac disease diagnosis is classified as **Positive** because Note_1 (2015-09-06) explicitly documents external biopsy confirmation, directly triggering the \"External biopsy confirmed\" decision rule. This histological confirmation is reinforced by pathological descriptors including \"VILLUS ATROPHY\" and \"NUMEROUS INTRAEPITHELIAL LYMPHOCYTES,\" alongside clinician statements that the biopsies are \"CONSISTENT WITH CELIAC DISEASE\" and \"resemble those of celiac disease.\" Although serial TTG-IgA serology tests were negative, the decision framework prioritizes definitive biopsy evidence over serological screening results. Consequently, the confirmed histological findings override the negative laboratory data and other notes lacking pathological signals, establishing a final positive diagnosis.",
+  "evidence": [
+    "VILLUS ATROPHY",
+    "NUMEROUS INTRAEPITHELIAL LYMPHOCYTES",
+    "CONSISTENT WITH CELIAC DISEASE",
+    "Her biopsies results resemble those of celiac disease.",
+    "All labs were negative.",
+    "Her biopsies results resemble those of celiac disease.",
+    "All labs were negative.",
+    "Her biopsies results resemble those of celiac disease.",
+    "All labs were negative."
+  ],
+  "decision_path": "Per-note: Note_1(2015-09-06 05:00:00): Positive [External biopsy confirmed]; Note_2(2014-12-01 19:30:00): Negative [No pathological signal found]; Note_3(2015-08-10 13:43:00): Negative [No pathological signal found]; Note_4(2015-08-10 21:13:00): Negative [No pathological signal found]; Note_5(2015-08-26 21:31:00): Negative [No pathological signal found]; Note_6(2015-09-20 18:46:00): Negative [No pathological signal found]; Note_7(2015-09-30 17:19:00): Negative [No pathological signal found]; Note_8(2015-09-30 19:34:00): Negative [No pathological signal found]. LLM aggregated: Positive. Keyword: Indeterminate. Final: Positive.",
+  "lab_decision": "excluded",
+  "time_taken_s": 96.1,
+  "trace": {
+    "grid": "R201910520",
+    "steps": [
+      {
+        "agent": "DataGatherer",
+        "summary": "PatientDossier for R201910520\n  Labs: 4 entries\n  Notes: 48 notes\n  TTG decision: excluded\n  Keyword decision: Indeterminate\n  Relevant notes for LLM: 8"
+      },
+      {
+        "agent": "SignalExtractor",
+        "num_notes": 8,
+        "num_signals": 8,
+        "signals": [
+          {
+            "note_label": "Note_1",
+            "note_date": "2015-09-06 05:00:00",
+            "note_type": "PATH",
+            "iel_status": "positive",
+            "villous_architecture": "abnormal",
+            "marsh_grade": "not_found",
+            "external_confirmation": true,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "VILLUS ATROPHY",
+              "NUMEROUS INTRAEPITHELIAL LYMPHOCYTES",
+              "CONSISTENT WITH CELIAC DISEASE"
+            ]
+          },
+          {
+            "note_label": "Note_2",
+            "note_date": "2014-12-01 19:30:00",
+            "note_type": "CLINIC NOTE",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_3",
+            "note_date": "2015-08-10 13:43:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_4",
+            "note_date": "2015-08-10 21:13:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_5",
+            "note_date": "2015-08-26 21:31:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": []
+          },
+          {
+            "note_label": "Note_6",
+            "note_date": "2015-09-20 18:46:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Her biopsies results resemble those of celiac disease.",
+              "All labs were negative."
+            ]
+          },
+          {
+            "note_label": "Note_7",
+            "note_date": "2015-09-30 17:19:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Her biopsies results resemble those of celiac disease.",
+              "All labs were negative."
+            ]
+          },
+          {
+            "note_label": "Note_8",
+            "note_date": "2015-09-30 19:34:00",
+            "note_type": "CLINICAL COMMUNICATION",
+            "iel_status": "not_found",
+            "villous_architecture": "not_found",
+            "marsh_grade": "not_found",
+            "external_confirmation": false,
+            "past_celiac_diagnosis": false,
+            "supporting_quotes": [
+              "Her biopsies results resemble those of celiac disease.",
+              "All labs were negative."
+            ]
+          }
+        ]
+      },
+      {
+        "agent": "Critic",
+        "round": 1,
+        "num_issues": 1,
+        "needs_re_extraction": false,
+        "issues": [
+          {
+            "note": "Note_6",
+            "type": "phantom_quote",
+            "desc": "Quote not found in note text: \"All labs were negative.\""
+          }
+        ]
+      },
+      {
+        "agent": "Adjudicator",
+        "diagnosis": "Positive",
+        "confidence": 0.85,
+        "decision_path": "Per-note: Note_1(2015-09-06 05:00:00): Positive [External biopsy confirmed]; Note_2(2014-12-01 19:30:00): Negative [No pathological signal found]; Note_3(2015-08-10 13:43:00): Negative [No pathological signal found]; Note_4(2015-08-10 21:13:00): Negative [No pathological signal found]; Note_5(2015-08-26 21:31:00): Negative [No pathological signal found]; Note_6(2015-09-20 18:46:00): Negative [No pathological signal found]; Note_7(2015-09-30 17:19:00): Negative [No pathological signal found]; Note_8(2015-09-30 19:34:00): Negative [No pathological signal found]. LLM aggregated: Positive. Keyword: Indeterminate. Final: Positive.",
+        "note_decisions": [
+          {
+            "note": "Note_1",
+            "date": "2015-09-06 05:00:00",
+            "decision": "Positive",
+            "rule": "External biopsy confirmed"
+          },
+          {
+            "note": "Note_2",
+            "date": "2014-12-01 19:30:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_3",
+            "date": "2015-08-10 13:43:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_4",
+            "date": "2015-08-10 21:13:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_5",
+            "date": "2015-08-26 21:31:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_6",
+            "date": "2015-09-20 18:46:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_7",
+            "date": "2015-09-30 17:19:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          },
+          {
+            "note": "Note_8",
+            "date": "2015-09-30 19:34:00",
+            "decision": "Negative",
+            "rule": "No pathological signal found"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_stats": {
+    "reasoning": {
+      "total_calls": 13,
+      "total_time_s": 903.2,
+      "avg_time_s": 69.5
+    },
+    "extraction": {
+      "total_calls": 78,
+      "total_time_s": 1651.2,
+      "avg_time_s": 21.2
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "grid": "R200961637",
+  "diagnosis": "Positive",
+  "confidence": 1.0,
+  "reasoning": "TTG-IgA lab decision is 'case' (TTG > cutoff). Per clinician's rules: 'If TTG > 100 or > 10x upper limit of normal, then positive regardless of other labs or notes.'",
+  "evidence": [
+    "TTG-IgA labs for R200961637: 7 measurements, max=165.0, overall_decision=case\n  [2014-05-04] TTG-IgA: 165 units → case\n  [2014-09-27] TTG-IgA: 155 units → case\n  [2014-09-27] TTG-IgA: Positive . → secondary_check\n  [2018-02-25] TTG-IgA: Negative . → excluded\n  [2019-08-30] TTG-IgA: Negative . → excluded\n  [2020-10-02] TTG-IgA: 7.56 units → excluded\n  [2020-10-02] TTG-IgA: Negative . → excluded"
+  ],
+  "decision_path": "TTG-IgA lab override (TTG > cutoff)",
+  "lab_decision": "case",
+  "time_taken_s": 0.1,
+  "trace": {
+    "grid": "R200961637",
+    "steps": [
+      {
+        "agent": "DataGatherer",
+        "summary": "PatientDossier for R200961637\n  Labs: 11 entries\n  Notes: 205 notes\n  TTG decision: case\n  Keyword decision: Positive\n  Relevant notes for LLM: 89"
+      },
+      {
+        "agent": "TTG_Override",
+        "lab_decision": "case",
+        "result": "Positive"
+      }
+    ]
+  },
+  "llm_stats": {
+    "reasoning": {
+      "total_calls": 5,
+      "total_time_s": 336.5,
+      "avg_time_s": 67.3
+    },
+    "extraction": {
+      "total_calls": 30,
+      "total_time_s": 598.3,
+      "avg_time_s": 19.9
+    }
+  }
+}
